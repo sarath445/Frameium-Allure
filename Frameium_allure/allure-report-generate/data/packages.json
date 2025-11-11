@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "src.test.resources.Features.UFS.EnvironmentHealthCheckup_feature.Environmental",
+    "children" : [ {
+      "name" : "IB Health checkup SIT",
+      "uid" : "d2eed52ef77f8db8",
+      "parentUid" : "0ed73d66b9b8bbef001b58d622b7bdc3",
+      "status" : "broken",
+      "time" : {
+        "start" : 1748255419908,
+        "stop" : 1748255485766,
+        "duration" : 65858
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "src.test.resources.Features.UFS.EnvironmentHealthCheckup_feature.Environmental"
+  } ]
+}

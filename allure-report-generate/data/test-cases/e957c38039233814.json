@@ -1,0 +1,413 @@
+{
+  "uid" : "e957c38039233814",
+  "name" : "Verify that items under Our Market > Main Market Section appears correctly",
+  "fullName" : "src/test/resources/Features/SaudiExch/SaudiExchange.feature:5",
+  "historyId" : "ca04ecd80dd5a6bb7c968d8b620f3303",
+  "time" : {
+    "start" : 1762853020818,
+    "stop" : 1762853053155,
+    "duration" : 32337
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "com.frameium.stepdef.Hooks.beforeScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762853020870,
+      "stop" : 1762853026099,
+      "duration" : 5229
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.IBPayments.TestdataRead()",
+    "time" : {
+      "start" : 1762853026127,
+      "stop" : 1762853027193,
+      "duration" : 1066
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.PaymentTest.TestdataRead()",
+    "time" : {
+      "start" : 1762853027195,
+      "stop" : 1762853027335,
+      "duration" : 140
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Then  User opens the Url \"http://www.saudiexchange.sa/\"",
+      "time" : {
+        "start" : 1762853027347,
+        "stop" : 1762853043127,
+        "duration" : 15780
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24525834b1ebf2bd",
+        "name" : "image",
+        "source" : "24525834b1ebf2bd.png",
+        "type" : "image/png",
+        "size" : 173681
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Then  Click on the Our Markets dropdown menu",
+      "time" : {
+        "start" : 1762853043180,
+        "stop" : 1762853051525,
+        "duration" : 8345
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then  Verify Following Items appears under Our Market Section > Main Market Section:",
+      "time" : {
+        "start" : 1762853051546,
+        "stop" : 1762853052272,
+        "duration" : 726
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1d5265922f60fa",
+        "name" : "Data table",
+        "source" : "1d5265922f60fa.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 135
+      }, {
+        "uid" : "42c5988b98aff16c",
+        "name" : "image",
+        "source" : "42c5988b98aff16c.png",
+        "type" : "image/png",
+        "size" : 160069
+      }, {
+        "uid" : "e9e491c0a40212cf",
+        "name" : "image",
+        "source" : "e9e491c0a40212cf.png",
+        "type" : "image/png",
+        "size" : 159763
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762853027337,
+      "stop" : 1762853027342,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.IBPayments.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762853043135,
+      "stop" : 1762853043141,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762853043145,
+      "stop" : 1762853043154,
+      "duration" : 9
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762853043157,
+      "stop" : 1762853043161,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762853043164,
+      "stop" : 1762853043177,
+      "duration" : 13
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.IBPayments.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762853051529,
+      "stop" : 1762853051531,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762853051533,
+      "stop" : 1762853051534,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762853051535,
+      "stop" : 1762853051537,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762853051544,
+      "stop" : 1762853051546,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.IBPayments.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762853052273,
+      "stop" : 1762853052275,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762853052276,
+      "stop" : 1762853052279,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762853052279,
+      "stop" : 1762853052281,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.closeDriver()",
+    "time" : {
+      "start" : 1762853052281,
+      "stop" : 1762853053063,
+      "duration" : 782
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762853053066,
+      "stop" : 1762853053070,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "P1"
+  }, {
+    "name" : "tag",
+    "value" : "VerifyingTextUnderOurMarket"
+  }, {
+    "name" : "tag",
+    "value" : "Web01"
+  }, {
+    "name" : "host",
+    "value" : "THSLT10419"
+  }, {
+    "name" : "thread",
+    "value" : "22056@THSLT10419.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Verify Items Under Menu - English"
+  }, {
+    "name" : "story",
+    "value" : "Verify that items under Our Market > Main Market Section appears correctly"
+  }, {
+    "name" : "suite",
+    "value" : "Verify Items Under Menu - English"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify that items under Our Market > Main Market Section appears correctly"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber6jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/SarathSobhitharaj/Frameium_allure/src/test/resources/Features/SaudiExch/SaudiExchange.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.Features.SaudiExch.SaudiExchange_feature.Verify Items Under Menu - English"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "10c50d6c5f3a61ca",
+      "status" : "skipped",
+      "statusDetails" : "Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 137\nCurrent browser version is 142.0.7444.135 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe \nHost info: host: 'THSLT10419', ip: '172.168.26.78'\nBuild info: version: '4.17.0', revision: 'e52b1be057*'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--window-size=2000,1000, --remote-allow-origins=*, --remote-debugging-port=9222], extensions: []}}]}]",
+      "time" : {
+        "start" : 1762848555653,
+        "stop" : 1762848577243,
+        "duration" : 21590
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "P1", "VerifyingTextUnderOurMarket", "Web01" ]
+  },
+  "source" : "e957c38039233814.json",
+  "parameterValues" : [ ]
+}

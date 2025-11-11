@@ -1,0 +1,22 @@
+{
+  "c4348c703ba13058db1e119f5caa66c9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d2eed52ef77f8db8",
+      "status" : "broken",
+      "statusDetails" : "Element must be set",
+      "time" : {
+        "start" : 1748255419908,
+        "stop" : 1748255485766,
+        "duration" : 65858
+      }
+    } ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Element must be set",
+      "children" : [ {
+        "name" : "IB Health checkup SIT",
+        "uid" : "551b02f9ec088de4",
+        "parentUid" : "ebbc1f2d49b0bd3d074841fff86ce47a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1748345686132,
+          "stop" : 1748345761388,
+          "duration" : 75256
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ebbc1f2d49b0bd3d074841fff86ce47a"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

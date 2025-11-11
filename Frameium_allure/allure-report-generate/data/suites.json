@@ -1,0 +1,21 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Environmental",
+    "children" : [ {
+      "name" : "IB Health checkup SIT",
+      "uid" : "d2eed52ef77f8db8",
+      "parentUid" : "e1929876dc27dd2be073d67cdf510543",
+      "status" : "broken",
+      "time" : {
+        "start" : 1748255419908,
+        "stop" : 1748255485766,
+        "duration" : 65858
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e1929876dc27dd2be073d67cdf510543"
+  } ]
+}

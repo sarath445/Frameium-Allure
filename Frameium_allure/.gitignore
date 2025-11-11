@@ -1,0 +1,12 @@
+/target/
+/allure-results/
+/Frameium/.metadata/
+/Frameium/.idea/*
+/Frameium/.idea/
+/Frameium/ExtentReports/
+/Frameium/ExtentReports/*
+/Frameium/allure-results/
+/Frameium/allure-results/*
+/Frameium/test-output/
+/Frameium/test-output/*
+

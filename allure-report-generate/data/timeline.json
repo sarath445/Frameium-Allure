@@ -1,0 +1,41 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "THSLT10419",
+    "children" : [ {
+      "name" : "22056@THSLT10419.main(1)",
+      "children" : [ {
+        "name" : "Verify that items under Our Market > Main Market Section appears correctly",
+        "uid" : "e957c38039233814",
+        "parentUid" : "f24deef528b70cafa474d1a8297c9185",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762853020818,
+          "stop" : 1762853053155,
+          "duration" : 32337
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f24deef528b70cafa474d1a8297c9185"
+    }, {
+      "name" : "32300@THSLT10419.main(1)",
+      "children" : [ {
+        "name" : "IB Health checkup SIT",
+        "uid" : "551b02f9ec088de4",
+        "parentUid" : "a321271bfc73a66fd1055f0ccb387d49",
+        "status" : "broken",
+        "time" : {
+          "start" : 1748345686132,
+          "stop" : 1748345761388,
+          "duration" : 75256
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a321271bfc73a66fd1055f0ccb387d49"
+    } ],
+    "uid" : "e0aab46fdf7db4b5e99197c7a7a25765"
+  } ]
+}

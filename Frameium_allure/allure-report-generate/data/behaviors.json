@@ -1,0 +1,25 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Environmental",
+    "children" : [ {
+      "name" : "IB Health checkup SIT",
+      "children" : [ {
+        "name" : "IB Health checkup SIT",
+        "uid" : "d2eed52ef77f8db8",
+        "parentUid" : "954ac15e30175b93bb4bbf11bc0bd96c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1748255419908,
+          "stop" : 1748255485766,
+          "duration" : 65858
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "954ac15e30175b93bb4bbf11bc0bd96c"
+    } ],
+    "uid" : "5f5666cd85d1fb4f9e6231fe32bae21e"
+  } ]
+}

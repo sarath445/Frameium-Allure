@@ -1,0 +1,566 @@
+{
+  "uid" : "d2eed52ef77f8db8",
+  "name" : "IB Health checkup SIT",
+  "fullName" : "src/test/resources/Features/UFS/EnvironmentHealthCheckup.feature:27",
+  "historyId" : "c4348c703ba13058db1e119f5caa66c9",
+  "time" : {
+    "start" : 1748255419908,
+    "stop" : 1748255485766,
+    "duration" : 65858
+  },
+  "status" : "broken",
+  "statusMessage" : "Element must be set",
+  "statusTrace" : "java.lang.IllegalArgumentException: Element must be set\r\n\tat org.openqa.selenium.internal.Require.nonNull(Require.java:60)\r\n\tat org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:277)\r\n\tat org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:345)\r\n\tat org.openqa.selenium.interactions.Actions.click(Actions.java:273)\r\n\tat com.frameium.genericfunctions.GenericFunctions.actions(GenericFunctions.java:612)\r\n\tat com.frameium.pageobject.UFS.IBHomePage.loginIBInternal(IBHomePage.java:832)\r\n\tat com.frameium.stepdef.Ufs.IBPayments.iLoginWith_UsernameAndPasswordOfUATIB(IBPayments.java:3040)\r\n\tat ✽.login with username and password of SIT IB(file:///C:/Users/SilpaNair/Frameium_allure/src/test/resources/Features/UFS/EnvironmentHealthCheckup.feature:29)\r\n",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "com.frameium.stepdef.Hooks.beforeScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255419949,
+      "stop" : 1748255422996,
+      "duration" : 3047
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.IBPayments.TestdataRead()",
+    "time" : {
+      "start" : 1748255423005,
+      "stop" : 1748255423651,
+      "duration" : 646
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.PaymentTest.TestdataRead()",
+    "time" : {
+      "start" : 1748255423651,
+      "stop" : 1748255423755,
+      "duration" : 104
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Element must be set",
+    "statusTrace" : "java.lang.IllegalArgumentException: Element must be set\r\n\tat org.openqa.selenium.internal.Require.nonNull(Require.java:60)\r\n\tat org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:277)\r\n\tat org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:345)\r\n\tat org.openqa.selenium.interactions.Actions.click(Actions.java:273)\r\n\tat com.frameium.genericfunctions.GenericFunctions.actions(GenericFunctions.java:612)\r\n\tat com.frameium.pageobject.UFS.IBHomePage.loginIBInternal(IBHomePage.java:832)\r\n\tat com.frameium.stepdef.Ufs.IBPayments.iLoginWith_UsernameAndPasswordOfUATIB(IBPayments.java:3040)\r\n\tat ✽.login with username and password of SIT IB(file:///C:/Users/SilpaNair/Frameium_allure/src/test/resources/Features/UFS/EnvironmentHealthCheckup.feature:29)\r\n",
+    "steps" : [ {
+      "name" : "When  close all the other opened windows",
+      "time" : {
+        "start" : 1748255423792,
+        "stop" : 1748255425501,
+        "duration" : 1709
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When  User opens the SIT IB URL",
+      "time" : {
+        "start" : 1748255425521,
+        "stop" : 1748255432226,
+        "duration" : 6705
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d869034af1ea5afe",
+        "name" : "image",
+        "source" : "d869034af1ea5afe.png",
+        "type" : "image/png",
+        "size" : 406543
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "When  login with username and password of SIT IB",
+      "time" : {
+        "start" : 1748255432229,
+        "stop" : 1748255484618,
+        "duration" : 52389
+      },
+      "status" : "broken",
+      "statusMessage" : "Element must be set",
+      "statusTrace" : "java.lang.IllegalArgumentException: Element must be set\r\n\tat org.openqa.selenium.internal.Require.nonNull(Require.java:60)\r\n\tat org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:277)\r\n\tat org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:345)\r\n\tat org.openqa.selenium.interactions.Actions.click(Actions.java:273)\r\n\tat com.frameium.genericfunctions.GenericFunctions.actions(GenericFunctions.java:612)\r\n\tat com.frameium.pageobject.UFS.IBHomePage.loginIBInternal(IBHomePage.java:832)\r\n\tat com.frameium.stepdef.Ufs.IBPayments.iLoginWith_UsernameAndPasswordOfUATIB(IBPayments.java:3040)\r\n\tat ✽.login with username and password of SIT IB(file:///C:/Users/SilpaNair/Frameium_allure/src/test/resources/Features/UFS/EnvironmentHealthCheckup.feature:29)\r\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "27d44bc64a83ff30",
+        "name" : "Screenshot on failure",
+        "source" : "27d44bc64a83ff30.png",
+        "type" : "image/png",
+        "size" : 403408
+      }, {
+        "uid" : "be693c03304e22bf",
+        "name" : "Screenshot on failure",
+        "source" : "be693c03304e22bf.png",
+        "type" : "image/png",
+        "size" : 403408
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Then  verify whether the IB details are displayed",
+      "time" : {
+        "start" : 1748255485348,
+        "stop" : 1748255485349,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then  logout from Ib",
+      "time" : {
+        "start" : 1748255485350,
+        "stop" : 1748255485350,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255423759,
+      "stop" : 1748255423769,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.IBPayments.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255425502,
+      "stop" : 1748255425504,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255425505,
+      "stop" : 1748255425506,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255425506,
+      "stop" : 1748255425513,
+      "duration" : 7
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255425516,
+      "stop" : 1748255425519,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.IBPayments.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255432227,
+      "stop" : 1748255432229,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255432229,
+      "stop" : 1748255432229,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255432229,
+      "stop" : 1748255432229,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255432229,
+      "stop" : 1748255432229,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.IBPayments.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255484620,
+      "stop" : 1748255484890,
+      "duration" : 270
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255484890,
+      "stop" : 1748255484891,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255484891,
+      "stop" : 1748255485347,
+      "duration" : 456
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b54b5d2fded13909",
+      "name" : "screenshot",
+      "source" : "b54b5d2fded13909.png",
+      "type" : "image/png",
+      "size" : 403463
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255485347,
+      "stop" : 1748255485348,
+      "duration" : 1
+    },
+    "status" : "skipped",
+    "statusMessage" : "BEFORE_STEP is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.IBPayments.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255485349,
+      "stop" : 1748255485349,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AFTER_STEP is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255485349,
+      "stop" : 1748255485349,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AFTER_STEP is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255485350,
+      "stop" : 1748255485350,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AFTER_STEP is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255485350,
+      "stop" : 1748255485350,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "BEFORE_STEP is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.IBPayments.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255485350,
+      "stop" : 1748255485351,
+      "duration" : 1
+    },
+    "status" : "skipped",
+    "statusMessage" : "AFTER_STEP is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255485351,
+      "stop" : 1748255485351,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AFTER_STEP is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255485351,
+      "stop" : 1748255485351,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AFTER_STEP is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.closeDriver()",
+    "time" : {
+      "start" : 1748255485351,
+      "stop" : 1748255485760,
+      "duration" : 409
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1748255485762,
+      "stop" : 1748255485763,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "environmentalcheckup"
+  }, {
+    "name" : "host",
+    "value" : "THSLT10568"
+  }, {
+    "name" : "thread",
+    "value" : "19504@THSLT10568.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Environmental"
+  }, {
+    "name" : "story",
+    "value" : "IB Health checkup SIT"
+  }, {
+    "name" : "suite",
+    "value" : "Environmental"
+  }, {
+    "name" : "testClass",
+    "value" : "IB Health checkup SIT"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber6jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/SilpaNair/Frameium_allure/src/test/resources/Features/UFS/EnvironmentHealthCheckup.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.Features.UFS.EnvironmentHealthCheckup_feature.Environmental"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "environmentalcheckup" ]
+  },
+  "source" : "d2eed52ef77f8db8.json",
+  "parameterValues" : [ ]
+}

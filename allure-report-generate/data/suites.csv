@@ -1,0 +1,3 @@
+"Status","Name","Duration in ms","Description"
+"passed","src/test/resources/Features/SaudiExch/SaudiExchange.feature:5","32337",""
+"broken","src/test/resources/Features/UFS/EnvironmentHealthCheckup.feature:27","75256",""

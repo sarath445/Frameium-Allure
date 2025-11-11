@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "THSLT10568",
+    "children" : [ {
+      "name" : "19504@THSLT10568.main(1)",
+      "children" : [ {
+        "name" : "IB Health checkup SIT",
+        "uid" : "d2eed52ef77f8db8",
+        "parentUid" : "dc5ae855c4a261a8395ff2bdf5e0b43a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1748255419908,
+          "stop" : 1748255485766,
+          "duration" : 65858
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dc5ae855c4a261a8395ff2bdf5e0b43a"
+    } ],
+    "uid" : "5ab6597aa3b8ccbf9fd036166c4a4401"
+  } ]
+}

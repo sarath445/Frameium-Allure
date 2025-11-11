@@ -1,0 +1,11 @@
+[ {
+  "uid" : "d2eed52ef77f8db8",
+  "name" : "IB Health checkup SIT",
+  "time" : {
+    "start" : 1748255419908,
+    "stop" : 1748255485766,
+    "duration" : 65858
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

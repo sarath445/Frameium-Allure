@@ -1,0 +1,5303 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>TestHouse - Frameium Framework</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">
+<img src="https://cms.technopark.org/zcmspg/zupload/5363/cmp_detail/15291446981673385006_Testhouse%20Logo%20Transparent%202.png" width="90" height="15" />
+         
+</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Oct 3, 2024 09:35:42 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Internal transfer</p>
+            <p class="text-sm">
+              <span>21:35:42 PM</span> / <span>34:00:994</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Internal transfer</h5>
+<span class='badge badge-success'>10.03.2024 21:35:42</span>
+<span class='badge badge-danger'>10.03.2024 21:39:43</span>
+<span class='badge badge-default'>34:00:994</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:35:52 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:35:55 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:35:55 PM</td>
+        <td>
+          User opens the T24 Url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:36:49 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_36_49_IST_2024.png' src="./screenshots/Thu_Oct_03_21_36_49_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:36:49 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:36:49 PM</td>
+        <td>
+          User should be able to login to T24
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:37:26 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:37:26 PM</td>
+        <td>
+          The user should be able to fill the commandline
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:37:36 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:37:36 PM</td>
+        <td>
+          user should be able to see the the balance of the account before performing internal transfer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:37:51 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:37:51 PM</td>
+        <td>
+          The user should be able to navigate to Account transfer button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:38:09 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:38:09 PM</td>
+        <td>
+          Enter the details in the account transfer fields
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:38:56 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:38:56 PM</td>
+        <td>
+          Click on validate
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:38:57 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:38:57 PM</td>
+        <td>
+          Click on commit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:12 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:39:12 PM</td>
+        <td>
+          Verify whether the transaction complete message is displayed after commiting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:39:43 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:39:43 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_39_43_IST_2024.png' src="./screenshots/Thu_Oct_03_21_39_43_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="78"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Internal transfer</p>
+            <p class="text-sm">
+              <span>21:39:45 PM</span> / <span>34:49:315</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Internal transfer</h5>
+<span class='badge badge-success'>10.03.2024 21:39:45</span>
+<span class='badge badge-danger'>10.03.2024 21:44:35</span>
+<span class='badge badge-default'>34:49:315</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=78</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:39:46 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:49 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:39:49 PM</td>
+        <td>
+          User opens the T24 Url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:39:54 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_39_54_IST_2024.png' src="./screenshots/Thu_Oct_03_21_39_54_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:39:54 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:39:54 PM</td>
+        <td>
+          User should be able to login to T24
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:42:55 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:42:55 PM</td>
+        <td>
+          The user should be able to fill the commandline
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:04 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:43:04 PM</td>
+        <td>
+          user should be able to see the the balance of the account before performing internal transfer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:25 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:43:25 PM</td>
+        <td>
+          The user should be able to navigate to Account transfer button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:43:33 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:43:33 PM</td>
+        <td>
+          Enter the details in the account transfer fields
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:44:01 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:44:01 PM</td>
+        <td>
+          Click on validate
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:44:02 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:44:02 PM</td>
+        <td>
+          Click on commit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:44:11 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:44:11 PM</td>
+        <td>
+          Verify whether the transaction complete message is displayed after commiting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:44:23 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:44:23 PM</td>
+        <td>
+          Navigate to account entries
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:44:24 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:44:24 PM</td>
+        <td>
+          Enter the account number and click on find button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:44:32 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:44:32 PM</td>
+        <td>
+          Verify whether the transaction is reflected in the accountentries
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:44:34 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:44:35 PM</td>
+        <td>
+          Scenario  :: Internal transfer ::  Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="151"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Internal Transfer narrative</p>
+            <p class="text-sm">
+              <span>21:44:36 PM</span> / <span>31:00:134</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Internal Transfer narrative</h5>
+<span class='badge badge-success'>10.03.2024 21:44:36</span>
+<span class='badge badge-danger'>10.03.2024 21:45:36</span>
+<span class='badge badge-default'>31:00:134</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=151</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:44:37 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:44:39 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:44:39 PM</td>
+        <td>
+          User opens the T24 Url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:44:43 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_44_43_IST_2024.png' src="./screenshots/Thu_Oct_03_21_44_43_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:44:43 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:44:43 PM</td>
+        <td>
+          User should be able to login to T24
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:45:20 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:45:20 PM</td>
+        <td>
+          The user should be able to fill the commandline
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:45:27 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:45:27 PM</td>
+        <td>
+          The user should be able to click on general enquiries buttom
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:45:27 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:45:27 PM</td>
+        <td>
+          click on the IB-view of account entries
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:45:28 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_45_28_IST_2024.png' src="./screenshots/Thu_Oct_03_21_45_28_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:45:28 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:45:28 PM</td>
+        <td>
+          Enter the account number
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:45:29 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:45:29 PM</td>
+        <td>
+          click on find button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:45:29 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:45:29 PM</td>
+        <td>
+          The details of internal transfer should be reflected in the narratives
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:45:36 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:45:36 PM</td>
+        <td>
+          Scenario  :: Internal Transfer narrative ::  Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="204"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">External transfer</p>
+            <p class="text-sm">
+              <span>21:45:36 PM</span> / <span>31:42:377</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">External transfer</h5>
+<span class='badge badge-success'>10.03.2024 21:45:36</span>
+<span class='badge badge-danger'>10.03.2024 21:47:19</span>
+<span class='badge badge-default'>31:42:377</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=204</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:45:37 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:45:38 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:45:38 PM</td>
+        <td>
+          User opens the T24 Url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:45:42 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_45_41_IST_2024.png' src="./screenshots/Thu_Oct_03_21_45_41_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:45:42 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:45:42 PM</td>
+        <td>
+          User should be able to login to T24
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:46:04 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:46:04 PM</td>
+        <td>
+          The user should be able to fill the commandline
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:46:09 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:46:09 PM</td>
+        <td>
+          user should be able to see the the balance of the account before performing External transfer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:46:17 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:46:17 PM</td>
+        <td>
+          The user should be able to navigate to Account transfer button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:46:22 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:46:22 PM</td>
+        <td>
+          Enter the details in the account external  transfer fields
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:46:40 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:46:40 PM</td>
+        <td>
+          Click on validate
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:46:41 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:46:41 PM</td>
+        <td>
+          Click on commit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:46:48 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:46:48 PM</td>
+        <td>
+          Verify whether the transaction complete message is displayed after commiting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:47:19 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:47:19 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_47_19_IST_2024.png' src="./screenshots/Thu_Oct_03_21_47_19_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="277"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">External transfer</p>
+            <p class="text-sm">
+              <span>21:47:20 PM</span> / <span>31:25:695</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">External transfer</h5>
+<span class='badge badge-success'>10.03.2024 21:47:20</span>
+<span class='badge badge-danger'>10.03.2024 21:48:46</span>
+<span class='badge badge-default'>31:25:695</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=277</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:47:20 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:47:22 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:47:22 PM</td>
+        <td>
+          User opens the T24 Url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:47:26 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_47_25_IST_2024.png' src="./screenshots/Thu_Oct_03_21_47_25_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:47:26 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:47:26 PM</td>
+        <td>
+          User should be able to login to T24
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:47:43 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:47:43 PM</td>
+        <td>
+          The user should be able to fill the commandline
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:47:47 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:47:47 PM</td>
+        <td>
+          user should be able to see the the balance of the account before performing External transfer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:47:55 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:47:55 PM</td>
+        <td>
+          The user should be able to navigate to Account transfer button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:48:00 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:48:00 PM</td>
+        <td>
+          Enter the details in the account external  transfer fields
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:48:12 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:48:12 PM</td>
+        <td>
+          Click on validate
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:48:12 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:48:12 PM</td>
+        <td>
+          Click on commit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:48:15 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:48:15 PM</td>
+        <td>
+          Verify whether the transaction complete message is displayed after commiting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:48:45 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:48:46 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_48_45_IST_2024.png' src="./screenshots/Thu_Oct_03_21_48_45_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="350"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">External Transfer narrative</p>
+            <p class="text-sm">
+              <span>21:48:46 PM</span> / <span>31:08:308</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">External Transfer narrative</h5>
+<span class='badge badge-success'>10.03.2024 21:48:46</span>
+<span class='badge badge-danger'>10.03.2024 21:49:54</span>
+<span class='badge badge-default'>31:08:308</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=350</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:48:46 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:48:48 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:48:48 PM</td>
+        <td>
+          User opens the T24 Url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:48:52 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_48_52_IST_2024.png' src="./screenshots/Thu_Oct_03_21_48_52_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:48:52 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:48:52 PM</td>
+        <td>
+          User should be able to login to T24
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:11 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:49:11 PM</td>
+        <td>
+          The user should be able to fill the commandline
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:16 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:49:16 PM</td>
+        <td>
+          The user should be able to click on general enquiries buttom
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:17 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:49:17 PM</td>
+        <td>
+          click on the IB-view of account entries
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:49:17 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_49_17_IST_2024.png' src="./screenshots/Thu_Oct_03_21_49_17_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:17 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:49:17 PM</td>
+        <td>
+          Enter the account number
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:21 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:49:21 PM</td>
+        <td>
+          click on find button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:21 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:49:21 PM</td>
+        <td>
+          The details of External transfer should be reflected in the narratives
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:49:54 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:49:54 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_49_54_IST_2024.png' src="./screenshots/Thu_Oct_03_21_49_54_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="403"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">External Transfer narrative</p>
+            <p class="text-sm">
+              <span>21:49:56 PM</span> / <span>31:13:939</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">External Transfer narrative</h5>
+<span class='badge badge-success'>10.03.2024 21:49:56</span>
+<span class='badge badge-danger'>10.03.2024 21:51:10</span>
+<span class='badge badge-default'>31:13:939</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=403</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:49:56 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:58 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:49:58 PM</td>
+        <td>
+          User opens the T24 Url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_50_01_IST_2024.png' src="./screenshots/Thu_Oct_03_21_50_01_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          User should be able to login to T24
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          The user should be able to fill the commandline
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:33 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:33 PM</td>
+        <td>
+          The user should be able to click on general enquiries buttom
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:33 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:33 PM</td>
+        <td>
+          click on the IB-view of account entries
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:34 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_50_33_IST_2024.png' src="./screenshots/Thu_Oct_03_21_50_33_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:34 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:34 PM</td>
+        <td>
+          Enter the account number
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:36 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:36 PM</td>
+        <td>
+          click on find button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:36 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:36 PM</td>
+        <td>
+          The details of External transfer should be reflected in the narratives
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:51:09 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:51:10 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_51_09_IST_2024.png' src="./screenshots/Thu_Oct_03_21_51_09_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="456"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Internal transfer over limit</p>
+            <p class="text-sm">
+              <span>21:51:10 PM</span> / <span>31:47:144</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Internal transfer over limit</h5>
+<span class='badge badge-success'>10.03.2024 21:51:10</span>
+<span class='badge badge-danger'>10.03.2024 21:52:58</span>
+<span class='badge badge-default'>31:47:144</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=456</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:51:11 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:13 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:51:13 PM</td>
+        <td>
+          User opens the T24 Url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:51:17 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_51_17_IST_2024.png' src="./screenshots/Thu_Oct_03_21_51_17_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:17 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:51:17 PM</td>
+        <td>
+          User should be able to login to T24
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          The user should be able to fill the commandline
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:45 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:51:45 PM</td>
+        <td>
+          user should be able to see the the balance of the account before performing internal transfer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          The user should be able to navigate to Account transfer button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:02 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:02 PM</td>
+        <td>
+          Enter the details in the account transfer for internal transfer overlimit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:23 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:23 PM</td>
+        <td>
+          Click on validate
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:24 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:24 PM</td>
+        <td>
+          Click on commit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:27 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:27 PM</td>
+        <td>
+          Verify whether the transaction complete message is displayed after commiting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:52:57 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:58 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_52_57_IST_2024.png' src="./screenshots/Thu_Oct_03_21_52_57_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="559"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Internal transfer over limit</p>
+            <p class="text-sm">
+              <span>21:52:58 PM</span> / <span>31:46:505</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Internal transfer over limit</h5>
+<span class='badge badge-success'>10.03.2024 21:52:58</span>
+<span class='badge badge-danger'>10.03.2024 21:54:45</span>
+<span class='badge badge-default'>31:46:505</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=559</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:58 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:00 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:00 PM</td>
+        <td>
+          User opens the T24 Url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:02 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_53_02_IST_2024.png' src="./screenshots/Thu_Oct_03_21_53_02_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:02 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:02 PM</td>
+        <td>
+          User should be able to login to T24
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:24 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:24 PM</td>
+        <td>
+          The user should be able to fill the commandline
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:32 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:32 PM</td>
+        <td>
+          user should be able to see the the balance of the account before performing internal transfer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:44 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:44 PM</td>
+        <td>
+          The user should be able to navigate to Account transfer button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:48 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:48 PM</td>
+        <td>
+          Enter the details in the account transfer for internal transfer overlimit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:54:07 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:54:07 PM</td>
+        <td>
+          Click on validate
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:54:07 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:54:07 PM</td>
+        <td>
+          Click on commit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:54:14 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:54:14 PM</td>
+        <td>
+          Verify whether the transaction complete message is displayed after commiting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:54:44 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:54:45 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_54_44_IST_2024.png' src="./screenshots/Thu_Oct_03_21_54_44_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="662"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Internal Transfer overlimit narrative</p>
+            <p class="text-sm">
+              <span>21:54:45 PM</span> / <span>31:07:867</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Internal Transfer overlimit narrative</h5>
+<span class='badge badge-success'>10.03.2024 21:54:45</span>
+<span class='badge badge-danger'>10.03.2024 21:55:53</span>
+<span class='badge badge-default'>31:07:867</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=662</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:54:45 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:54:47 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:54:47 PM</td>
+        <td>
+          User opens the T24 Url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:54:50 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_54_49_IST_2024.png' src="./screenshots/Thu_Oct_03_21_54_49_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:54:50 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:54:50 PM</td>
+        <td>
+          User should be able to login to T24
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:55:14 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:55:14 PM</td>
+        <td>
+          The user should be able to fill the commandline
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:55:17 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:55:17 PM</td>
+        <td>
+          The user should be able to click on general enquiries buttom
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:55:18 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:55:18 PM</td>
+        <td>
+          click on the IB-view of account entries
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:55:18 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_55_18_IST_2024.png' src="./screenshots/Thu_Oct_03_21_55_18_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:55:18 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:55:18 PM</td>
+        <td>
+          Enter the account number
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:55:21 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:55:21 PM</td>
+        <td>
+          click on find button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:55:21 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:55:21 PM</td>
+        <td>
+          The details of internal transfer overlimit should be reflected in the narratives
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:55:53 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:55:53 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_55_53_IST_2024.png' src="./screenshots/Thu_Oct_03_21_55_53_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="715"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Internal Transfer overlimit narrative</p>
+            <p class="text-sm">
+              <span>21:55:54 PM</span> / <span>31:13:598</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Internal Transfer overlimit narrative</h5>
+<span class='badge badge-success'>10.03.2024 21:55:54</span>
+<span class='badge badge-danger'>10.03.2024 21:57:07</span>
+<span class='badge badge-default'>31:13:598</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=715</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:55:54 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:55:55 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:55:55 PM</td>
+        <td>
+          User opens the T24 Url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:55:59 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_55_59_IST_2024.png' src="./screenshots/Thu_Oct_03_21_55_59_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:55:59 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:55:59 PM</td>
+        <td>
+          User should be able to login to T24
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:56:25 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:56:25 PM</td>
+        <td>
+          The user should be able to fill the commandline
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:56:32 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:56:32 PM</td>
+        <td>
+          The user should be able to click on general enquiries buttom
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:56:32 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:56:32 PM</td>
+        <td>
+          click on the IB-view of account entries
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:56:32 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_56_32_IST_2024.png' src="./screenshots/Thu_Oct_03_21_56_32_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:56:32 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:56:32 PM</td>
+        <td>
+          Enter the account number
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:56:34 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:56:34 PM</td>
+        <td>
+          click on find button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:56:34 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:56:34 PM</td>
+        <td>
+          The details of internal transfer overlimit should be reflected in the narratives
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:57:07 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:57:07 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_57_07_IST_2024.png' src="./screenshots/Thu_Oct_03_21_57_07_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="768"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">External transfer over limit</p>
+            <p class="text-sm">
+              <span>21:57:08 PM</span> / <span>31:46:038</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">External transfer over limit</h5>
+<span class='badge badge-success'>10.03.2024 21:57:08</span>
+<span class='badge badge-danger'>10.03.2024 21:58:54</span>
+<span class='badge badge-default'>31:46:038</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=768</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:57:08 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:57:10 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:57:10 PM</td>
+        <td>
+          User opens the T24 Url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:57:14 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_57_13_IST_2024.png' src="./screenshots/Thu_Oct_03_21_57_13_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:57:14 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:57:14 PM</td>
+        <td>
+          User should be able to login to T24
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:57:32 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:57:32 PM</td>
+        <td>
+          The user should be able to fill the commandline
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:57:44 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:57:44 PM</td>
+        <td>
+          user should be able to see the the balance of the account before performing internal transfer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:57:55 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:57:55 PM</td>
+        <td>
+          The user should be able to navigate to Account transfer button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:58:00 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:58:00 PM</td>
+        <td>
+          Enter the details in the account transfer for internal transfer overlimit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:58:15 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:58:15 PM</td>
+        <td>
+          Click on validate
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:58:16 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:58:16 PM</td>
+        <td>
+          Click on commit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:58:23 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:58:23 PM</td>
+        <td>
+          Verify whether the transaction complete message is displayed after commiting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:58:54 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:58:54 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_58_54_IST_2024.png' src="./screenshots/Thu_Oct_03_21_58_54_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="871"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">External transfer over limit</p>
+            <p class="text-sm">
+              <span>21:58:54 PM</span> / <span>31:43:052</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">External transfer over limit</h5>
+<span class='badge badge-success'>10.03.2024 21:58:54</span>
+<span class='badge badge-danger'>10.03.2024 22:00:37</span>
+<span class='badge badge-default'>31:43:052</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=871</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:58:55 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:58:56 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:58:56 PM</td>
+        <td>
+          User opens the T24 Url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:58:59 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_21_58_59_IST_2024.png' src="./screenshots/Thu_Oct_03_21_58_59_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:58:59 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:58:59 PM</td>
+        <td>
+          User should be able to login to T24
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:18 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:59:18 PM</td>
+        <td>
+          The user should be able to fill the commandline
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:25 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:59:25 PM</td>
+        <td>
+          user should be able to see the the balance of the account before performing internal transfer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:38 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:59:38 PM</td>
+        <td>
+          The user should be able to navigate to Account transfer button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:44 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:59:44 PM</td>
+        <td>
+          Enter the details in the account transfer for internal transfer overlimit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:59 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:59:59 PM</td>
+        <td>
+          Click on validate
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:59:59 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:59:59 PM</td>
+        <td>
+          Click on commit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:00:06 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:00:06 PM</td>
+        <td>
+          Verify whether the transaction complete message is displayed after commiting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:00:37 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:00:37 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_22_00_37_IST_2024.png' src="./screenshots/Thu_Oct_03_22_00_37_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="974"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">External Transfer overlimit narrative</p>
+            <p class="text-sm">
+              <span>22:00:38 PM</span> / <span>31:19:623</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">External Transfer overlimit narrative</h5>
+<span class='badge badge-success'>10.03.2024 22:00:38</span>
+<span class='badge badge-danger'>10.03.2024 22:01:58</span>
+<span class='badge badge-default'>31:19:623</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=974</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:00:38 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:00:40 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:00:40 PM</td>
+        <td>
+          User opens the T24 Url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:00:43 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_22_00_43_IST_2024.png' src="./screenshots/Thu_Oct_03_22_00_43_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:00:43 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:00:43 PM</td>
+        <td>
+          User should be able to login to T24
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:01:17 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:01:17 PM</td>
+        <td>
+          The user should be able to fill the commandline
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:01:23 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:01:23 PM</td>
+        <td>
+          The user should be able to click on general enquiries buttom
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:01:23 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:01:23 PM</td>
+        <td>
+          click on the IB-view of account entries
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:01:23 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_22_01_23_IST_2024.png' src="./screenshots/Thu_Oct_03_22_01_23_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:01:23 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:01:23 PM</td>
+        <td>
+          Enter the account number
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:01:25 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:01:25 PM</td>
+        <td>
+          click on find button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:01:25 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:01:25 PM</td>
+        <td>
+          The details of internal transfer overlimit should be reflected in the narratives
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:01:57 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:01:58 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_22_01_57_IST_2024.png' src="./screenshots/Thu_Oct_03_22_01_57_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="1,027"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">External Transfer overlimit narrative</p>
+            <p class="text-sm">
+              <span>22:01:58 PM</span> / <span>31:14:592</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">External Transfer overlimit narrative</h5>
+<span class='badge badge-success'>10.03.2024 22:01:58</span>
+<span class='badge badge-danger'>10.03.2024 22:03:13</span>
+<span class='badge badge-default'>31:14:592</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1,027</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:01:58 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:02:00 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:02:00 PM</td>
+        <td>
+          User opens the T24 Url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:02:13 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_22_02_13_IST_2024.png' src="./screenshots/Thu_Oct_03_22_02_13_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:02:13 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:02:13 PM</td>
+        <td>
+          User should be able to login to T24
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:02:32 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:02:32 PM</td>
+        <td>
+          The user should be able to fill the commandline
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:02:39 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:02:39 PM</td>
+        <td>
+          The user should be able to click on general enquiries buttom
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:02:39 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:02:39 PM</td>
+        <td>
+          click on the IB-view of account entries
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:02:39 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_22_02_39_IST_2024.png' src="./screenshots/Thu_Oct_03_22_02_39_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:02:39 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:02:39 PM</td>
+        <td>
+          Enter the account number
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:02:41 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:02:41 PM</td>
+        <td>
+          click on find button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:02:41 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:02:41 PM</td>
+        <td>
+          The details of internal transfer overlimit should be reflected in the narratives
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:03:13 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:03:13 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_22_03_13_IST_2024.png' src="./screenshots/Thu_Oct_03_22_03_13_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="1,080"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Balance Maintanance sweep transfer</p>
+            <p class="text-sm">
+              <span>22:03:13 PM</span> / <span>32:01:622</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Balance Maintanance sweep transfer</h5>
+<span class='badge badge-success'>10.03.2024 22:03:13</span>
+<span class='badge badge-danger'>10.03.2024 22:05:15</span>
+<span class='badge badge-default'>32:01:622</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1,080</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:03:13 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:03:15 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:03:15 PM</td>
+        <td>
+          User opens the T24 Url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:03:19 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_22_03_19_IST_2024.png' src="./screenshots/Thu_Oct_03_22_03_19_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:03:19 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:03:19 PM</td>
+        <td>
+          User should be able to login to T24
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:03:44 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:03:44 PM</td>
+        <td>
+          The user should be able to fill the commandline
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:03:49 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:03:49 PM</td>
+        <td>
+          navigate to find account option
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:03:50 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:03:50 PM</td>
+        <td>
+          open the account that balance maintenance sweep transfer need to be applied
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:04:10 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:04:10 PM</td>
+        <td>
+          reverse sweep transfer if any Sweep transfer is there and switch back to main menu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:04:35 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:04:35 PM</td>
+        <td>
+          navigate to operations menu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:04:35 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:04:35 PM</td>
+        <td>
+          click on sweep maintainance
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:04:35 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:04:35 PM</td>
+        <td>
+          click on  setup maintenance sweep
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:04:35 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:04:35 PM</td>
+        <td>
+          Enter the details for balance maintenance sweep
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:04:42 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:04:42 PM</td>
+        <td>
+          Click on validate
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:04:42 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:04:42 PM</td>
+        <td>
+          Click on commit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:04:45 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:04:45 PM</td>
+        <td>
+          Verify whether the transaction complete message is displayed after commiting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:04:48 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:04:48 PM</td>
+        <td>
+          navigate to find account option
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:04:48 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:04:48 PM</td>
+        <td>
+          open the account that balance maintenance sweep transfer need to be applied
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:05:08 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:05:08 PM</td>
+        <td>
+          verify that balance maintenance sweep transfer is reflected in the overview page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:05:15 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:05:15 PM</td>
+        <td>
+          Scenario  :: Balance Maintanance sweep transfer ::  Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="1,173"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Surplus sweep transfer</p>
+            <p class="text-sm">
+              <span>22:05:15 PM</span> / <span>31:46:114</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Surplus sweep transfer</h5>
+<span class='badge badge-success'>10.03.2024 22:05:15</span>
+<span class='badge badge-danger'>10.03.2024 22:07:01</span>
+<span class='badge badge-default'>31:46:114</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1,173</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:05:15 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:05:18 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:05:18 PM</td>
+        <td>
+          User opens the T24 Url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:05:21 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_22_05_20_IST_2024.png' src="./screenshots/Thu_Oct_03_22_05_20_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:05:21 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:05:21 PM</td>
+        <td>
+          User should be able to login to T24
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:05:39 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:05:39 PM</td>
+        <td>
+          The user should be able to fill the commandline
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:05:43 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:05:43 PM</td>
+        <td>
+          navigate to find account option
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:05:43 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:05:43 PM</td>
+        <td>
+          open the account that surplus sweep transfer need to be applied
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:06:03 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:06:03 PM</td>
+        <td>
+          reverse sweep transfer if any Sweep transfer is there and switch back to main menu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:06:24 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:06:24 PM</td>
+        <td>
+          navigate to operations menu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:06:25 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:06:25 PM</td>
+        <td>
+          click on sweep maintainance
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:06:25 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:06:25 PM</td>
+        <td>
+          click on setup surplus sweep
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:06:25 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:06:25 PM</td>
+        <td>
+          Enter the details for surplus sweep
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:06:31 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:06:31 PM</td>
+        <td>
+          Click on validate
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:06:32 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:06:32 PM</td>
+        <td>
+          Click on commit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:06:34 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:06:34 PM</td>
+        <td>
+          Verify whether the transaction complete message is displayed after commiting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:06:37 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:06:37 PM</td>
+        <td>
+          navigate to find account option
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:06:37 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:06:37 PM</td>
+        <td>
+          open the account that surplus sweep transfer need to be applied
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:06:55 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:06:55 PM</td>
+        <td>
+          verify that Surplus sweep transfer is reflected in the overview page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:07:01 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:07:01 PM</td>
+        <td>
+          Scenario  :: Surplus sweep transfer ::  Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="1,266"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Two way sweep transfer Surplus</p>
+            <p class="text-sm">
+              <span>22:07:01 PM</span> / <span>31:52:611</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Two way sweep transfer Surplus</h5>
+<span class='badge badge-success'>10.03.2024 22:07:01</span>
+<span class='badge badge-danger'>10.03.2024 22:08:54</span>
+<span class='badge badge-default'>31:52:611</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1,266</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:01 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:07:04 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:04 PM</td>
+        <td>
+          User opens the T24 Url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:07 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_22_07_07_IST_2024.png' src="./screenshots/Thu_Oct_03_22_07_07_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:07:07 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:07 PM</td>
+        <td>
+          User should be able to login to T24
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:07:20 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:20 PM</td>
+        <td>
+          The user should be able to fill the commandline
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:07:26 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:26 PM</td>
+        <td>
+          navigate to find account option
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:07:27 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:27 PM</td>
+        <td>
+          open the account that Two way sweep transfer-surplus need to be applied
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:07:46 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:07:46 PM</td>
+        <td>
+          reverse sweep transfer if any Sweep transfer is there and switch back to main menu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:08:11 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:11 PM</td>
+        <td>
+          navigate to operations menu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:08:11 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:11 PM</td>
+        <td>
+          click on sweep maintainance
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:08:11 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:11 PM</td>
+        <td>
+          click on Setup Two Way Sweep
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:08:11 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:11 PM</td>
+        <td>
+          Enter the details Two way sweep surplus
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:08:18 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:18 PM</td>
+        <td>
+          Click on validate
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:08:18 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:18 PM</td>
+        <td>
+          Click on commit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:08:22 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:22 PM</td>
+        <td>
+          Verify whether the transaction complete message is displayed after commiting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:08:24 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:24 PM</td>
+        <td>
+          navigate to find account option
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:08:24 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:24 PM</td>
+        <td>
+          open the account that Two way sweep transfer-surplus need to be applied
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:08:48 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:48 PM</td>
+        <td>
+          verify that Two way sweep transfer-surplus is reflected in the overview page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:08:54 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:08:54 PM</td>
+        <td>
+          Scenario  :: Two way sweep transfer Surplus ::  Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="1,359"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Two way sweep transfer Balance maintenance</p>
+            <p class="text-sm">
+              <span>22:08:54 PM</span> / <span>32:07:617</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Two way sweep transfer Balance maintenance</h5>
+<span class='badge badge-success'>10.03.2024 22:08:54</span>
+<span class='badge badge-danger'>10.03.2024 22:11:02</span>
+<span class='badge badge-default'>32:07:617</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1,359</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:54 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:08:57 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:57 PM</td>
+        <td>
+          User opens the T24 Url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:59 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_22_08_59_IST_2024.png' src="./screenshots/Thu_Oct_03_22_08_59_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:08:59 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:08:59 PM</td>
+        <td>
+          User should be able to login to T24
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:09:17 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:09:17 PM</td>
+        <td>
+          The user should be able to fill the commandline
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:09:24 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:09:24 PM</td>
+        <td>
+          navigate to find account option
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:09:24 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:09:24 PM</td>
+        <td>
+          open the account that Two way sweep transfer-BalanceMaintenance need to be applied
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:09:52 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:09:52 PM</td>
+        <td>
+          reverse sweep transfer if any Sweep transfer is there and switch back to main menu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:10:17 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:10:17 PM</td>
+        <td>
+          navigate to operations menu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:10:17 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:10:17 PM</td>
+        <td>
+          click on sweep maintainance
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:10:18 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:10:18 PM</td>
+        <td>
+          click on Setup Two Way Sweep
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:10:18 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:10:18 PM</td>
+        <td>
+          Enter the details Two way sweep BalanceMaintenance
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:10:27 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:10:27 PM</td>
+        <td>
+          Click on validate
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:10:27 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:10:27 PM</td>
+        <td>
+          Click on commit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:10:30 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:10:30 PM</td>
+        <td>
+          Verify whether the transaction complete message is displayed after commiting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:11:01 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:11:02 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_22_11_01_IST_2024.png' src="./screenshots/Thu_Oct_03_22_11_01_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="1,452"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Two way sweep transfer Balance maintenance</p>
+            <p class="text-sm">
+              <span>22:11:03 PM</span> / <span>40:26:564</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Two way sweep transfer Balance maintenance</h5>
+<span class='badge badge-success'>10.03.2024 22:11:03</span>
+<span class='badge badge-danger'>10.03.2024 22:21:29</span>
+<span class='badge badge-default'>40:26:564</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1,452</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:11:03 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:05 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:11:05 PM</td>
+        <td>
+          User opens the T24 Url
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:11:08 PM</td>
+        <td>
+          
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='./screenshots/Thu_Oct_03_22_11_08_IST_2024.png' src="./screenshots/Thu_Oct_03_22_11_08_IST_2024.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:08 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:11:08 PM</td>
+        <td>
+          User should be able to login to T24
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:23 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:11:23 PM</td>
+        <td>
+          The user should be able to fill the commandline
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:28 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:11:28 PM</td>
+        <td>
+          navigate to find account option
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:28 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:11:28 PM</td>
+        <td>
+          open the account that Two way sweep transfer-BalanceMaintenance need to be applied
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:50 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:11:50 PM</td>
+        <td>
+          reverse sweep transfer if any Sweep transfer is there and switch back to main menu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:05 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:05 PM</td>
+        <td>
+          navigate to operations menu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:05 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:05 PM</td>
+        <td>
+          click on sweep maintainance
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:05 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:05 PM</td>
+        <td>
+          click on Setup Two Way Sweep
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:06 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:06 PM</td>
+        <td>
+          Enter the details Two way sweep BalanceMaintenance
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:13 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:13 PM</td>
+        <td>
+          Click on validate
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:13 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:13 PM</td>
+        <td>
+          Click on commit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:15 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:15 PM</td>
+        <td>
+          Verify whether the transaction complete message is displayed after commiting
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:16 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:16 PM</td>
+        <td>
+          navigate to find account option
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:17 PM</td>
+        <td>
+          Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:17 PM</td>
+        <td>
+          open the account that Two way sweep transfer-BalanceMaintenance need to be applied
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:21:29 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="1,545"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Account creation</p>
+            <p class="text-sm">
+              <span>22:24:30 PM</span> / <span>36:01:665</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Account creation</h5>
+<span class='badge badge-success'>10.03.2024 22:24:30</span>
+<span class='badge badge-danger'>10.03.2024 22:30:32</span>
+<span class='badge badge-default'>36:01:665</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1,545</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:24:30 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:30:32 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="1,633"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Account creation</p>
+            <p class="text-sm">
+              <span>22:33:33 PM</span> / <span>36:01:673</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Account creation</h5>
+<span class='badge badge-success'>10.03.2024 22:33:33</span>
+<span class='badge badge-danger'>10.03.2024 22:39:34</span>
+<span class='badge badge-default'>36:01:673</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1,633</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:33:33 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:39:34 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="1,721"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Account closure</p>
+            <p class="text-sm">
+              <span>22:42:35 PM</span> / <span>36:01:795</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Account closure</h5>
+<span class='badge badge-success'>10.03.2024 22:42:35</span>
+<span class='badge badge-danger'>10.03.2024 22:48:37</span>
+<span class='badge badge-default'>36:01:795</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1,721</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:42:35 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:48:37 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="1,809"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Account closure</p>
+            <p class="text-sm">
+              <span>22:51:38 PM</span> / <span>36:01:419</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Account closure</h5>
+<span class='badge badge-success'>10.03.2024 22:51:38</span>
+<span class='badge badge-danger'>10.03.2024 22:57:40</span>
+<span class='badge badge-default'>36:01:419</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1,809</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:51:39 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:57:40 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="1,897"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Deposit Creation</p>
+            <p class="text-sm">
+              <span>23:00:40 PM</span> / <span>36:01:793</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Deposit Creation</h5>
+<span class='badge badge-success'>10.03.2024 23:00:40</span>
+<span class='badge badge-danger'>10.03.2024 23:06:42</span>
+<span class='badge badge-default'>36:01:793</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1,897</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:00:41 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:06:42 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2,040"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Deposit Creation</p>
+            <p class="text-sm">
+              <span>23:09:43 PM</span> / <span>36:02:252</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Deposit Creation</h5>
+<span class='badge badge-success'>10.03.2024 23:09:43</span>
+<span class='badge badge-danger'>10.03.2024 23:15:45</span>
+<span class='badge badge-default'>36:02:252</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2,040</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:44 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:15:45 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2,183"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Deposit Closure</p>
+            <p class="text-sm">
+              <span>23:18:47 PM</span> / <span>36:01:500</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Deposit Closure</h5>
+<span class='badge badge-success'>10.03.2024 23:18:47</span>
+<span class='badge badge-danger'>10.03.2024 23:24:48</span>
+<span class='badge badge-default'>36:01:500</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2,183</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:18:47 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:24:48 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2,351"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Deposit Closure</p>
+            <p class="text-sm">
+              <span>23:27:50 PM</span> / <span>36:01:910</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Deposit Closure</h5>
+<span class='badge badge-success'>10.03.2024 23:27:50</span>
+<span class='badge badge-danger'>10.03.2024 23:33:52</span>
+<span class='badge badge-default'>36:01:910</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2,351</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:27:50 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:33:52 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2,519"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Loan Creation</p>
+            <p class="text-sm">
+              <span>23:36:53 PM</span> / <span>36:02:013</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Loan Creation</h5>
+<span class='badge badge-success'>10.03.2024 23:36:53</span>
+<span class='badge badge-danger'>10.03.2024 23:42:55</span>
+<span class='badge badge-default'>36:02:013</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2,519</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:36:53 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:42:55 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2,662"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Loan Creation</p>
+            <p class="text-sm">
+              <span>23:45:56 PM</span> / <span>36:02:233</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Loan Creation</h5>
+<span class='badge badge-success'>10.03.2024 23:45:56</span>
+<span class='badge badge-danger'>10.03.2024 23:51:58</span>
+<span class='badge badge-default'>36:02:233</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2,662</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:45:57 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:51:58 PM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2,805"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Loan Closure</p>
+            <p class="text-sm">
+              <span>23:55:00 PM</span> / <span>36:02:165</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Loan Closure</h5>
+<span class='badge badge-success'>10.03.2024 23:55:00</span>
+<span class='badge badge-danger'>10.04.2024 00:01:02</span>
+<span class='badge badge-default'>36:02:165</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2,805</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:01 PM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:01:02 AM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3,063"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Loan Closure</p>
+            <p class="text-sm">
+              <span>00:04:04 AM</span> / <span>36:01:627</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Loan Closure</h5>
+<span class='badge badge-success'>10.04.2024 00:04:04</span>
+<span class='badge badge-danger'>10.04.2024 00:10:05</span>
+<span class='badge badge-default'>36:01:627</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3,063</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:04:04 AM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:10:05 AM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3,321"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Deposit partial withdrawal</p>
+            <p class="text-sm">
+              <span>03:10:36 AM</span> / <span>30:04:734</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Deposit partial withdrawal</h5>
+<span class='badge badge-success'>10.04.2024 03:10:36</span>
+<span class='badge badge-danger'>10.04.2024 03:10:40</span>
+<span class='badge badge-default'>30:04:734</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3,321</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:10:37 AM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:10:40 AM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3,479"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Deposit partial withdrawal</p>
+            <p class="text-sm">
+              <span>03:10:42 AM</span> / <span>30:01:340</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Deposit partial withdrawal</h5>
+<span class='badge badge-success'>10.04.2024 03:10:42</span>
+<span class='badge badge-danger'>10.04.2024 03:10:43</span>
+<span class='badge badge-default'>30:01:340</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3,479</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:10:42 AM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:10:43 AM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3,637"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Direct Debit</p>
+            <p class="text-sm">
+              <span>03:10:44 AM</span> / <span>20:35:252</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Direct Debit</h5>
+<span class='badge badge-success'>10.04.2024 03:10:44</span>
+<span class='badge badge-danger'>10.04.2024 07:01:20</span>
+<span class='badge badge-default'>20:35:252</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3,637</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:10:45 AM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:01:20 AM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3,705"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Direct Debit</p>
+            <p class="text-sm">
+              <span>07:01:31 AM</span> / <span>30:05:388</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Direct Debit</h5>
+<span class='badge badge-success'>10.04.2024 07:01:31</span>
+<span class='badge badge-danger'>10.04.2024 07:01:36</span>
+<span class='badge badge-default'>30:05:388</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3,705</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:01:34 AM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:01:36 AM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3,773"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Loan repayment</p>
+            <p class="text-sm">
+              <span>07:01:40 AM</span> / <span>30:20:148</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Loan repayment</h5>
+<span class='badge badge-success'>10.04.2024 07:01:40</span>
+<span class='badge badge-danger'>10.04.2024 07:02:00</span>
+<span class='badge badge-default'>30:20:148</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3,773</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:01:41 AM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:02:00 AM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3,866"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Loan repayment</p>
+            <p class="text-sm">
+              <span>07:02:02 AM</span> / <span>30:05:096</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Loan repayment</h5>
+<span class='badge badge-success'>10.04.2024 07:02:02</span>
+<span class='badge badge-danger'>10.04.2024 07:02:08</span>
+<span class='badge badge-default'>30:05:096</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3,866</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:02:03 AM</td>
+        <td>
+          close all the other opened windows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:02:08 AM</td>
+        <td>
+          Failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Oct 3, 2024 09:35:42 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Oct 4, 2024 07:02:08 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Suite Passed</p>
+<h3>5</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Suite Failed</p>
+<h3>33</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Suite</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='13%'>
+<b>5</b> suite passed
+</small>
+</div>
+<div>
+<small data-tooltip='86%'><b>33</b> suite failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='40%'><b>217</b> events passed</small></div>
+<div>
+<small data-tooltip='6%'><b>33</b> events failed,
+<b data-tooltip='%'>286</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Internal transfer":240.994,"Internal transfer":289.315,"Internal Transfer narrative":60.134,"External transfer":102.377,"External transfer":85.695,"External Transfer narrative":68.308,"External Transfer narrative":73.939,"Internal transfer over limit":107.144,"Internal transfer over limit":106.505,"Internal Transfer overlimit narrative":67.867,"Internal Transfer overlimit narrative":73.598,"External transfer over limit":106.038,"External transfer over limit":103.052,"External Transfer overlimit narrative":79.623,"External Transfer overlimit narrative":74.592,"Balance Maintanance sweep transfer":121.622,"Surplus sweep transfer":106.114,"Two way sweep transfer Surplus":112.611,"Two way sweep transfer Balance maintenance":127.617,"Two way sweep transfer Balance maintenance":626.564,"Account creation":361.665,"Account creation":361.673,"Account closure":361.795,"Account closure":361.419,"Deposit Creation":361.793,"Deposit Creation":362.252,"Deposit Closure":361.5,"Deposit Closure":361.91,"Loan Creation":362.013,"Loan Creation":362.233,"Loan Closure":362.165,"Loan Closure":361.627,"Deposit partial withdrawal":4.734,"Deposit partial withdrawal":1.34,"Direct Debit":13835.252,"Direct Debit":5.388,"Loan repayment":20.148,"Loan repayment":5.096
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 5,
+failParent: 33,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 217,
+failEvents: 33,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 286
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@14e9bb345ef7e2ed3a102f271d84e9f0267c88e7/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

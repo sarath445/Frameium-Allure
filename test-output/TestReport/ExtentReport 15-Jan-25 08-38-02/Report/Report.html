@@ -1,0 +1,3721 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>TestHouse - Frameium Framework</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">
+<img src="https://cms.technopark.org/zcmspg/zupload/5363/cmp_detail/15291446981673385006_Testhouse%20Logo%20Transparent%202.png" width="90" height="15" />
+         
+</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jan 15, 2025 08:38:02 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@firstday</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">IBPayments</p>
+            <p class="text-sm">
+              <span>08:38:10 AM</span> / <span>21:51:561</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">IBPayments</h5>
+<span class='badge badge-success'>01.15.2025 08:38:10</span>
+<span class='badge badge-danger'>01.15.2025 09:30:01</span>
+<span class='badge badge-default'>21:51:561</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Bpay now saved contact</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="4"><span class="badge log pass-bg mr-2">Pass</span>Bpay now saved contact</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When close all the other opened windows before loading the url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the IB URL</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded1.png' src="../Screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I login with username "298010" and password "Temenos@123" of IB</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded2.png' src="../Screenshots/embedded2.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then click on transfer button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Click on Bpay</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter the Bpay details</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And confirm Bpay saved payment</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Review the BPAY saved contact now</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded3.png' src="../Screenshots/embedded3.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then logout from Ib</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Login to authorizer account with username "<username2>"and password "<password2>"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then click on Authorization button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Authorize the Bpay transfer now</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded4.png' src="../Screenshots/embedded4.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Review authorization that the details of BPAY saved now is reflected correctly</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded5.png' src="../Screenshots/embedded5.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the T24 Url</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded6.png' src="../Screenshots/embedded6.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User should be able to login to T24</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded7.png' src="../Screenshots/embedded7.png">
+    
+    </div></div>
+</div>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded8.png' src="../Screenshots/embedded8.png">
+    
+    </div></div>
+</div>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded9.png' src="../Screenshots/embedded9.png">
+    
+    </div></div>
+</div>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded10.png' src="../Screenshots/embedded10.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The user should be able to fill the commandline</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user should be able to click on general enquiries buttom</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on the IB-view of account entries</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter the account number of Bpay now saved contact</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on find button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify the narratives of Bpay now saved contact</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="137"><span class="badge log fail-bg mr-2">Fail</span>Bpay future saved contact</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="138"><span class="badge log fail-bg mr-2">Fail</span>Bpay future saved contact</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When close all the other opened windows before loading the url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the IB URL</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded11.png' src="../Screenshots/embedded11.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I login with username "298010" and password "Temenos@123" of IB</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded12.png' src="../Screenshots/embedded12.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then click on transfer button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Click on Bpay</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter the Bpay future details</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And confirm Bpay saved payment future</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And Review the BPAY saved contact future</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded13.png' src="../Screenshots/embedded13.png">
+    
+    </div></div>
+</div>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.frameium.pageobject.UFS.IBHomePage.closeMessageBpayFuture(IBHomePage.java:2477)
+	at com.frameium.stepdef.Ufs.IBPayments.reviewTheBPAYSavedContactfuture(IBPayments.java:1259)
+	at ✽.Review the BPAY saved contact future(file:///D:/frameium/Frameium_allure/src/test/resources/Features/UFS/IBPayments.feature:392)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded14.png' src="../Screenshots/embedded14.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then logout from Ib</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Login to authorizer account with username "<username2>"and password "<password2>"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then click on Authorization button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Authorize the Bpay transfer future</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Review authorization that the details of BPAY future is reflected correctly</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="231"><span class="badge log fail-bg mr-2">Fail</span>Bpay recurrring saved contact</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="232"><span class="badge log fail-bg mr-2">Fail</span>Bpay recurrring saved contact</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When close all the other opened windows before loading the url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the IB URL</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded15.png' src="../Screenshots/embedded15.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I login with username "298010" and password "Temenos@123" of IB</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded16.png' src="../Screenshots/embedded16.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then click on transfer button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Click on Bpay</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter the Bpay recurring details</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And confirm Bpay saved payment recurring</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And Review the BPAY saved contact recurring</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded17.png' src="../Screenshots/embedded17.png">
+    
+    </div></div>
+</div>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.frameium.pageobject.UFS.IBHomePage.closeMessageBpayRecurring(IBHomePage.java:2429)
+	at com.frameium.stepdef.Ufs.IBPayments.reviewTheBPAYSavedContactrecurring(IBPayments.java:1309)
+	at ✽.Review the BPAY saved contact recurring(file:///D:/frameium/Frameium_allure/src/test/resources/Features/UFS/IBPayments.feature:429)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded18.png' src="../Screenshots/embedded18.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then logout from Ib</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Login to authorizer account with username "<username2>"and password "<password2>"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then click on Authorization button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Authorize the Bpay transfer recurring</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Review authorization that the details of BPAY saved contact recurring is reflected correctly</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="325"><span class="badge log fail-bg mr-2">Fail</span>Bpay now new contact</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="326"><span class="badge log fail-bg mr-2">Fail</span>Bpay now new contact</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When close all the other opened windows before loading the url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the IB URL</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded19.png' src="../Screenshots/embedded19.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I login with username "298010" and password "Temenos@123" of IB</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded20.png' src="../Screenshots/embedded20.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then click on transfer button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Click on Bpay</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter the Bpay new contact details</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And confirm Bpay new contact payment</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And Review the BPAY new contact now</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded21.png' src="../Screenshots/embedded21.png">
+    
+    </div></div>
+</div>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.frameium.pageobject.UFS.IBHomePage.closeMessageBpayRecurring(IBHomePage.java:2429)
+	at com.frameium.stepdef.Ufs.IBPayments.reviewTheBPAYNewContactNow(IBPayments.java:1581)
+	at ✽.Review the BPAY new contact now(file:///D:/frameium/Frameium_allure/src/test/resources/Features/UFS/IBPayments.feature:453)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded22.png' src="../Screenshots/embedded22.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then logout from Ib</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Login to authorizer account with username "<username2>"and password "<password2>"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then click on Authorization button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Authorize the Bpay transfer new contact now</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Review authorization that the details of BPAY now is reflected correctly</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User opens the T24 Url</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User should be able to login to T24</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then The user should be able to fill the commandline</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And The user should be able to click on general enquiries buttom</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on the IB-view of account entries</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Enter the account number of Bpay now new contact</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on find button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then verify the narratives of Bpay now new contact</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="459"><span class="badge log fail-bg mr-2">Fail</span>Bpay recurring new contact</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="460"><span class="badge log fail-bg mr-2">Fail</span>Bpay recurring new contact</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When close all the other opened windows before loading the url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the IB URL</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded23.png' src="../Screenshots/embedded23.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I login with username "298010" and password "Temenos@123" of IB</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded24.png' src="../Screenshots/embedded24.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then click on transfer button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Click on Bpay</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter the Bpay new contact recurring details</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And confirm Bpay new contact recurring payment</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And Review the BPAY new contact recurring</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded25.png' src="../Screenshots/embedded25.png">
+    
+    </div></div>
+</div>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.frameium.pageobject.UFS.IBHomePage.closeMessageBpayRecurring(IBHomePage.java:2429)
+	at com.frameium.stepdef.Ufs.IBPayments.reviewTheBPAYNewContactRecurring(IBPayments.java:1676)
+	at ✽.Review the BPAY new contact recurring(file:///D:/frameium/Frameium_allure/src/test/resources/Features/UFS/IBPayments.feature:485)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded26.png' src="../Screenshots/embedded26.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then logout from Ib</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Login to authorizer account with username "<username2>"and password "<password2>"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then click on Authorization button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Authorize the Bpay transfer new contact recurring</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Review authorization that the details of BPAY recurring is reflected correctly</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="553"><span class="badge log fail-bg mr-2">Fail</span>Bpay future new contact</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="554"><span class="badge log fail-bg mr-2">Fail</span>Bpay future new contact</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When close all the other opened windows before loading the url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the IB URL</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded27.png' src="../Screenshots/embedded27.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I login with username "298010" and password "Temenos@123" of IB</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded28.png' src="../Screenshots/embedded28.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then click on transfer button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Click on Bpay</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter the Bpay new contact future details</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And confirm Bpay new contact future payment</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And Review the BPAY new contact future</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded29.png' src="../Screenshots/embedded29.png">
+    
+    </div></div>
+</div>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.frameium.pageobject.UFS.IBHomePage.closeMessageBpayRecurring(IBHomePage.java:2429)
+	at com.frameium.stepdef.Ufs.IBPayments.reviewTheBPAYNewContactFuture(IBPayments.java:1720)
+	at ✽.Review the BPAY new contact future(file:///D:/frameium/Frameium_allure/src/test/resources/Features/UFS/IBPayments.feature:508)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded30.png' src="../Screenshots/embedded30.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then logout from Ib</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Login to authorizer account with username "<username2>"and password "<password2>"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then click on Authorization button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Authorize the Bpay transfer new contact future</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Review authorization that the details of BPAY future new contact is reflected correctly</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="647"><span class="badge log fail-bg mr-2">Fail</span>Session history IB</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="648"><span class="badge log fail-bg mr-2">Fail</span>Session history IB</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When close all the other opened windows before loading the url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the IB URL</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded31.png' src="../Screenshots/embedded31.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I login with username "298010" and password "Temenos@123" of IB</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded32.png' src="../Screenshots/embedded32.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then check whether the session history is showing the correct details</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div style="clear: none; width: auto; float: left; display: inline-block; border: 2.5px solid red;" id="row_BUT_43FFE78993BAE094584868">...</div> is not clickable at point (668, 217). Other element would receive the click: <a id="ITM_5BED282D70E00A4C702089" onclick="return goNavItem('', '5BED282D70E00A4C MenuItem 27', false, false, 'NAVMENU_', this, true);" href="#">...</a>
+  (Session info: chrome=131.0.6778.265)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [816a9c3b147b0917547d33ded42c4fd3, clickElement {id=f.88A73E0ED9F5B271E4B05DA71A38512E.d.52D89E00DE59D877777A35AE26C3625A.e.22197}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 130.0.6723.69 (3ec172b971b9..., userDataDir: C:\Users\SONYMO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (816a9c3b147b0917547d33ded42c4fd3)] -> xpath: (//*[contains(@id,'BUT_43FFE78993BAE')])[1]]
+Session ID: 816a9c3b147b0917547d33ded42c4fd3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.frameium.genericfunctions.GenericFunctions.clickElement(GenericFunctions.java:1160)
+	at com.frameium.pageobject.UFS.IBHomePage.sessionHistory(IBHomePage.java:7907)
+	at com.frameium.stepdef.Ufs.IBPayments.checkWhetherTheSessionHistoryIsShowingTheCorrectDetails(IBPayments.java:2003)
+	at ✽.check whether the session history is showing the correct details(file:///D:/frameium/Frameium_allure/src/test/resources/Features/UFS/IBPayments.feature:602)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded33.png' src="../Screenshots/embedded33.png">
+    
+    </div></div>
+</div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="681"><span class="badge log pass-bg mr-2">Pass</span>Batch template-Create/edit/delete</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="682"><span class="badge log pass-bg mr-2">Pass</span>Batch template-Create/edit/delete</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When close all the other opened windows before loading the url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the IB URL</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded34.png' src="../Screenshots/embedded34.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I login with username "298010" and password "Temenos@123" of IB</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded35.png' src="../Screenshots/embedded35.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then create new batch template</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Delete the newly created batch template</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="725"><span class="badge log pass-bg mr-2">Pass</span>Debit batch payment</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="726"><span class="badge log pass-bg mr-2">Pass</span>Debit batch payment</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When close all the other opened windows before loading the url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the IB URL</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded36.png' src="../Screenshots/embedded36.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I login with username "298010" and password "Temenos@123" of IB</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded37.png' src="../Screenshots/embedded37.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Click on Batch</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter the details of Debit batchpayment</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify the details of debit batch payment and click on Pay now button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then logout from Ib</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Login to authorizer account with username "<username2>"and password "<password2>"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then click on Authorization button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And open the debit batch payment that need to be authorised</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then authorise the debit batch payment</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then review authorization that the details of debit batch payment</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the T24 Url</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded38.png' src="../Screenshots/embedded38.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User should be able to login to T24</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded39.png' src="../Screenshots/embedded39.png">
+    
+    </div></div>
+</div>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded40.png' src="../Screenshots/embedded40.png">
+    
+    </div></div>
+</div>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded41.png' src="../Screenshots/embedded41.png">
+    
+    </div></div>
+</div>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded42.png' src="../Screenshots/embedded42.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The user should be able to fill the commandline</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user should be able to click on general enquiries buttom</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on the IB-view of account entries</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter the account number of debit batch payment</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on find button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And verify the narratives of debit batch paymentt</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded43.png' src="../Screenshots/embedded43.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the IBM URL</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded44.png' src="../Screenshots/embedded44.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Login to IBM</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then check the audit log whether the debit batch payment initiated in subIb "298010" scheduled is reflected for</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="869"><span class="badge log fail-bg mr-2">Fail</span>Credit batch payment origi</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="870"><span class="badge log fail-bg mr-2">Fail</span>Credit batch payment origi</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When close all the other opened windows before loading the url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the IB URL</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded45.png' src="../Screenshots/embedded45.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I login with username "298010" and password "Temenos@123" of IB</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded46.png' src="../Screenshots/embedded46.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Click on Batch</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter the details of Credit batchpayment</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then verify the details and click on Pay now button credit</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then logout from Ib</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Login to authorizer account with username "<username2>"and password "<password2>"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then click on Authorization button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And open the credit batch payment that need to be authorised</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then authorise the credit batch payment</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then review authorization that the details of creditbatchpayment</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.frameium.pageobject.UFS.IBHomePage.reviewAuthorizationBatchTemplate(IBHomePage.java:2813)
+	at com.frameium.stepdef.Ufs.IBPayments.reviewAuthorizationThatTheDetailsOfCreditbatchpayment(IBPayments.java:2436)
+	at ✽.review authorization that the details of creditbatchpayment(file:///D:/frameium/Frameium_allure/src/test/resources/Features/UFS/IBPayments.feature:743)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded47.png' src="../Screenshots/embedded47.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then logout from Ib</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User opens the T24 Url</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User should be able to login to T24</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then The user should be able to fill the commandline</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And The user should be able to click on general enquiries buttom</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on the IB-view of account entries</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Enter the account number of creditbatchpayment</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on find button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then verify the narratives of creditbatchpaymentt</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User opens the IBM URL</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When Login to IBM</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then check click on Reporting and select all batches</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Verify the IBM reporting that the Batch payment status is posted</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="1,023"><span class="badge log fail-bg mr-2">Fail</span>Debit batch payment Template</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="1,024"><span class="badge log fail-bg mr-2">Fail</span>Debit batch payment Template</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When close all the other opened windows before loading the url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the IB URL</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded48.png' src="../Screenshots/embedded48.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I login with username "298010" and password "Temenos@123" of IB</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded49.png' src="../Screenshots/embedded49.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Click on Batch</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter the details of Debit batchpayment template</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then verify the details and click on Pay now button</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getText()" because "SourceAccnt" is null
+	at com.frameium.pageobject.UFS.IBHomePage.BatchpaymentVerifyCredit(IBHomePage.java:7837)
+	at com.frameium.stepdef.Ufs.IBPayments.verifyTheDetailsAndClickOnPayNowButtondbttmplt(IBPayments.java:2274)
+	at ✽.verify the details and click on Pay now button(file:///D:/frameium/Frameium_allure/src/test/resources/Features/UFS/IBPayments.feature:770)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded50.png' src="../Screenshots/embedded50.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then logout from Ib</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Login to authorizer account with username "<username2>"and password "<password2>"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then click on Authorization button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And open the debit batch payment template that need to be authorised</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then authorise the debit batch template payment</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then review authorization details of debitbatchpayment template</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then logout from Ib</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User opens the T24 Url</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User should be able to login to T24</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then The user should be able to fill the commandline</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And The user should be able to click on general enquiries buttom</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on the IB-view of account entries</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Enter the account number of debit batch payment template</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on find button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then verify the narratives of debit batch payment template</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="1,157"><span class="badge log fail-bg mr-2">Fail</span>Single sign on</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="1,158"><span class="badge log fail-bg mr-2">Fail</span>Single sign on</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When close all the other opened windows before loading the url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the IBM URL</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded51.png' src="../Screenshots/embedded51.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Login to IBM</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then retrieve the client</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And get client numbers having single signon</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the T24 Url</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded52.png' src="../Screenshots/embedded52.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User should be able to login to T24</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded53.png' src="../Screenshots/embedded53.png">
+    
+    </div></div>
+</div>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded54.png' src="../Screenshots/embedded54.png">
+    
+    </div></div>
+</div>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded55.png' src="../Screenshots/embedded55.png">
+    
+    </div></div>
+</div>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded56.png' src="../Screenshots/embedded56.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then The user should be able to fill the commandline</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.clear()" because "T24PageCommand" is null
+	at com.frameium.stepdef.Ufs.PaymentTest.fill_in_the_commandline(PaymentTest.java:427)
+	at ✽.The user should be able to fill the commandline(file:///D:/frameium/Frameium_allure/src/test/resources/Features/UFS/IBPayments.feature:815)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.clear()" because "T24PageCommand" is null
+	at com.frameium.pageobject.UFS.T24homepage.commandline(T24homepage.java:622)
+	at com.frameium.stepdef.Ufs.PaymentTest.fill_in_the_commandline(PaymentTest.java:424)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:117)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:114)
+	at com.frameium.runner.TestRunnerUFSS.runScenario(TestRunnerUFSS.java:73)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded57.png' src="../Screenshots/embedded57.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then check the total investment facilities in the customer overview screen</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User opens the IB URL</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given I login with username "237675" and password "Temenos@123" of IB</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then check the single sign on dropdwown</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then select the account from single sign on dropdown and check the investment facilities</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="1,236"><span class="badge log pass-bg mr-2">Pass</span>Batchpaymentfailure</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="1,237"><span class="badge log pass-bg mr-2">Pass</span>Batchpaymentfailure</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When close all the other opened windows before loading the url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the IB URL</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded58.png' src="../Screenshots/embedded58.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I login with username "298010" and password "Temenos@123" of IB</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded59.png' src="../Screenshots/embedded59.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Click on Batch</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then enter the batch payment details and upload the file which will create failed batch payment</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then review batch payment and return to authorization</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then logout from Ib</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Login to authorizer account with username "<username2>"and password "<password2>"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then click on Authorization button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And open the debit failure batch payment that need to be authorised</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then authorise the failure debit batch payment</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then review authorization details of debit failure batchpayment</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then logout from Ib</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the IBM URL</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded60.png' src="../Screenshots/embedded60.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Login to IBM</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then check click on Reporting</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify the IBM reporting that the Batch payment status is not posted</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="1,350"><span class="badge log pass-bg mr-2">Pass</span>Batchpaymentfailure</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When close all the other opened windows before loading the url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the IB URL</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded61.png' src="../Screenshots/embedded61.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I login with username "298010" and password "Temenos@123" of IB</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded62.png' src="../Screenshots/embedded62.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Click on Batch</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter the details of batchpayment with Wrong BSB</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then review batch payment having wrong BSB and return to authorization</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then logout from Ib</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Login to authorizer account with username "<username2>"and password "<password2>"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then click on Authorization button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And open the debit Wrong BSB batch payment that need to be authorised</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then authorise the wrong BSB batch payment</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then review authorization details of wrong BSB batchpayment</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then logout from Ib</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the IBM URL</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded63.png' src="../Screenshots/embedded63.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Login to IBM</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then check the IBManager reporting table</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Logout of IBM</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the IB URL</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded64.png' src="../Screenshots/embedded64.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I login with username "298010" and password "Temenos@123" of IB</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded65.png' src="../Screenshots/embedded65.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then check the inbox whether the batch failed due to wrong BSB</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="1,483"><span class="badge log fail-bg mr-2">Fail</span>Joint account holders</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="1,484"><span class="badge log fail-bg mr-2">Fail</span>Joint account holders</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When close all the other opened windows before loading the url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the IB URL</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded66.png' src="../Screenshots/embedded66.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I login with username "124710" and password "Temenos@123" of IB</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded67.png' src="../Screenshots/embedded67.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then click on transfer button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Enter the transaction details in first user</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 1
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:303)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:179)
+	at com.frameium.genericfunctions.GenericFunctions.selectUsingIndex(GenericFunctions.java:1361)
+	at com.frameium.pageobject.UFS.IBHomePage.transferInternalJointowners(IBHomePage.java:1529)
+	at com.frameium.stepdef.Ufs.IBPayments.enterTheTransactionDetailss(IBPayments.java:193)
+	at ✽.Enter the transaction details in first user(file:///D:/frameium/Frameium_allure/src/test/resources/Features/UFS/IBPayments.feature:890)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded68.png' src="../Screenshots/embedded68.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then confirm the internal transfer payment for user1</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Review the internal transfer of user1</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When Click on inbox</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then verify whether the transaction details are displayed in the inbox</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then logout from Ib</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given I login with username "21894" and password "Temenos@123" of IB</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then click on Authorization button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Authorize the internal transfer initiated by user1</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Review authorization that the details of transaction initiated by user1 is reflected correctly</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then click on transfer button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Enter the transaction details in second user</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then confirm the internal transfer payment for user2</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Review the internal transfer of user2</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then logout from Ib</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given I login with username "124710" and password "Temenos@123" of IB</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then click on transfer button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then click on Authorization button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Authorize the internal transfer initiated by user2</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Review authorization that the details of transaction initiated by user2 is reflected correctly</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then logout from Ib</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User opens the T24 Url</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User should be able to login to T24</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then The user should be able to fill the commandline</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And The user should be able to click on general enquiries buttom</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on the IB-view of account entries</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Enter the account number of user1</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on find button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then verify the narratives of debit payment user1</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Enter the account number of user2</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on find button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then verify the narratives of debit payment user2</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="1,707"><span class="badge log fail-bg mr-2">Fail</span>checking Investment facilities are displayed</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="1,708"><span class="badge log fail-bg mr-2">Fail</span>checking Investment facilities are displayed</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When close all the other opened windows before loading the url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the T24 Url</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded69.png' src="../Screenshots/embedded69.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User should be able to login to T24</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded70.png' src="../Screenshots/embedded70.png">
+    
+    </div></div>
+</div>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded71.png' src="../Screenshots/embedded71.png">
+    
+    </div></div>
+</div>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded72.png' src="../Screenshots/embedded72.png">
+    
+    </div></div>
+</div>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded73.png' src="../Screenshots/embedded73.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then The user should be able to fill the commandline</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.clear()" because "T24PageCommand" is null
+	at com.frameium.stepdef.Ufs.PaymentTest.fill_in_the_commandline(PaymentTest.java:427)
+	at ✽.The user should be able to fill the commandline(file:///D:/frameium/Frameium_allure/src/test/resources/Features/UFS/IBPayments.feature:935)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.clear()" because "T24PageCommand" is null
+	at com.frameium.pageobject.UFS.T24homepage.commandline(T24homepage.java:622)
+	at com.frameium.stepdef.Ufs.PaymentTest.fill_in_the_commandline(PaymentTest.java:424)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:117)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:114)
+	at com.frameium.runner.TestRunnerUFSS.runScenario(TestRunnerUFSS.java:73)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded74.png' src="../Screenshots/embedded74.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then open a customer and get the investment details of that customer</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User opens the IB URL</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given I login with username "3006658" and password "Temenos@123" of IB</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Verify whether all investment details displayed in the home page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="1,761"><span class="badge log fail-bg mr-2">Fail</span>Credit batch payment Template</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="1,762"><span class="badge log fail-bg mr-2">Fail</span>Credit batch payment Template</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When close all the other opened windows before loading the url</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User opens the IB URL</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded75.png' src="../Screenshots/embedded75.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I login with username "298010" and password "Temenos@123" of IB</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded76.png' src="../Screenshots/embedded76.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Click on Batch</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And Enter the details of Credit batchpayment template</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: (//*[contains(@id,'C1__BUT_1301B65C55D1F1C')])[2] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 130.0.6723.69 (3ec172b971b9..., userDataDir: C:\Users\SONYMO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 816a9c3b147b0917547d33ded42c4fd3
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.frameium.genericfunctions.GenericFunctions.clickElement(GenericFunctions.java:1156)
+	at com.frameium.pageobject.UFS.IBHomePage.continueMessageBatchCredit(IBHomePage.java:7765)
+	at com.frameium.pageobject.UFS.IBHomePage.creditBatchTemplates(IBHomePage.java:6599)
+	at com.frameium.stepdef.Ufs.IBPayments.EnterTheDetailsOfCreditBatchpaymentTemplate(IBPayments.java:2247)
+	at ✽.Enter the details of Credit batchpayment template(file:///D:/frameium/Frameium_allure/src/test/resources/Features/UFS/IBPayments.feature:954)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../Screenshots/embedded77.png' src="../Screenshots/embedded77.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then verify the details of credit batch payment template and click on Pay now button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then logout from Ib</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Login to authorizer account with username "<username2>"and password "<password2>"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on Go to Accounts</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on Transfers and Pay button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then click on Authorization button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And open the credit batch payment template that need to be authorised</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then authorise the Credit batch template payment</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then review authorization details of Creditbatchpayment template</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then logout from Ib</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User opens the T24 Url</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User should be able to login to T24</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then The user should be able to fill the commandline</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And The user should be able to click on general enquiries buttom</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on the IB-view of account entries</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Enter the account number of Credit batch payment template</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And click on find button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then verify the narratives of Credit batch payment template</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">6</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.NullPointerException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.NullPointerException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:14:00 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='1,065'>Then verify the details and click on Pay now button</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Debit batch payment Template.Then verify the details and click on Pay now button</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.TimeoutException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.TimeoutException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:28:02 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='1,798'>And Enter the details of Credit batchpayment template</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Credit batch payment Template.And Enter the details of Credit batchpayment template</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.ElementClickInterceptedException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.ElementClickInterceptedException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:55:22 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='674'>Then check whether the session history is showing the correct details</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Session history IB.Then check whether the session history is showing the correct details</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:25:24 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='1,520'>Then Enter the transaction details in first user</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Joint account holders.Then Enter the transaction details in first user</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:45:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='189'>And Review the BPAY saved contact future</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Bpay future saved contact.And Review the BPAY saved contact future</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:47:35 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='283'>And Review the BPAY saved contact recurring</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Bpay recurrring saved contact.And Review the BPAY saved contact recurring</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:49:51 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='377'>And Review the BPAY new contact now</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Bpay now new contact.And Review the BPAY new contact now</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:51:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='511'>And Review the BPAY new contact recurring</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Bpay recurring new contact.And Review the BPAY new contact recurring</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:54:11 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='605'>And Review the BPAY new contact future</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Bpay future new contact.And Review the BPAY new contact future</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:10:53 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='951'>Then review authorization that the details of creditbatchpayment</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Credit batch payment origi.Then review authorization that the details of creditbatchpayment</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.RuntimeException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.RuntimeException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:15:17 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='1,199'>Then The user should be able to fill the commandline</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Single sign on.Then The user should be able to fill the commandline</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:26:00 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='1,729'>Then The user should be able to fill the commandline</a>
+<div class="">
+<span class="badge badge-default">IBPayments.checking Investment facilities are displayed.Then The user should be able to fill the commandline</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>9</span>
+<span class='badge log badge-danger'>24</span>
+</span>
+<p class="name">@firstday</p>
+<p class="duration text-sm">33 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@firstday</h4>
+<span status="pass" class='badge log pass-bg'>9 passed</span>
+<span status="fail" class='badge log badge-danger'>24 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:38:10 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='3'>Bpay now saved contact</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Bpay now saved contact</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:38:10 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='4'>Bpay now saved contact</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Bpay now saved contact</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:44:12 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='137'>Bpay future saved contact</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Bpay future saved contact</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:44:12 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='138'>Bpay future saved contact</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Bpay future saved contact</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:46:14 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='231'>Bpay recurrring saved contact</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Bpay recurrring saved contact</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:46:14 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='232'>Bpay recurrring saved contact</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Bpay recurrring saved contact</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:48:08 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='325'>Bpay now new contact</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Bpay now new contact</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:48:08 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='326'>Bpay now new contact</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Bpay now new contact</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:50:13 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='459'>Bpay recurring new contact</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Bpay recurring new contact</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:50:13 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='460'>Bpay recurring new contact</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Bpay recurring new contact</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:52:23 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='553'>Bpay future new contact</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Bpay future new contact</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:52:23 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='554'>Bpay future new contact</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Bpay future new contact</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:54:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='647'>Session history IB</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Session history IB</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:54:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='648'>Session history IB</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Session history IB</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:55:48 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='681'>Batch template-Create/edit/delete</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Batch template-Create/edit/delete</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:55:48 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='682'>Batch template-Create/edit/delete</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Batch template-Create/edit/delete</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:00:02 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='725'>Debit batch payment</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Debit batch payment</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:00:02 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='726'>Debit batch payment</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Debit batch payment</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:06:43 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='869'>Credit batch payment origi</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Credit batch payment origi</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:06:43 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='870'>Credit batch payment origi</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Credit batch payment origi</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:11:10 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='1,023'>Debit batch payment Template</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Debit batch payment Template</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:11:10 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='1,024'>Debit batch payment Template</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Debit batch payment Template</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:14:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='1,157'>Single sign on</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Single sign on</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:14:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='1,158'>Single sign on</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Single sign on</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:16:21 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='1,236'>Batchpaymentfailure</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Batchpaymentfailure</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:16:21 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='1,237'>Batchpaymentfailure</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Batchpaymentfailure</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:20:23 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='1,350'>Batchpaymentfailure</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Batchpaymentfailure</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:24:50 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='1,483'>Joint account holders</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Joint account holders</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:24:50 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='1,484'>Joint account holders</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Joint account holders</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:25:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='1,707'>checking Investment facilities are displayed</a>
+<div class="">
+<span class="badge badge-default">IBPayments.checking Investment facilities are displayed</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:25:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='1,708'>checking Investment facilities are displayed</a>
+<div class="">
+<span class="badge badge-default">IBPayments.checking Investment facilities are displayed</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:27:06 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='1,761'>Credit batch payment Template</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Credit batch payment Template</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:27:06 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='1,762'>Credit batch payment Template</a>
+<div class="">
+<span class="badge badge-default">IBPayments.Credit batch payment Template</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jan 15, 2025 08:38:02 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jan 15, 2025 09:30:22 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='29%'><b>5</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='70%'><b>12</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='58%'><b>210</b> steps passed</small></div>
+<div>
+<small data-tooltip='3%'><b>12</b> steps failed,
+<b>138</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"IBPayments":3111.561
+};
+</script>
+<div class="row">
+<div class="col-md-4 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@firstday</td>
+<td>9</td>
+<td>24</td>
+<td>0</td>
+<td>0</td>
+<td>27.273%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 5,
+failChild: 12,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 210,
+failGrandChild: 12,
+warningGrandChild: 0,
+skipGrandChild: 138,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@14e9bb345ef7e2ed3a102f271d84e9f0267c88e7/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

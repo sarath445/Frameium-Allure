@@ -1,0 +1,21 @@
+[ {
+  "uid" : "e957c38039233814",
+  "name" : "Verify that items under Our Market > Main Market Section appears correctly",
+  "time" : {
+    "start" : 1762853020818,
+    "stop" : 1762853053155,
+    "duration" : 32337
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "551b02f9ec088de4",
+  "name" : "IB Health checkup SIT",
+  "time" : {
+    "start" : 1748345686132,
+    "stop" : 1748345761388,
+    "duration" : 75256
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
