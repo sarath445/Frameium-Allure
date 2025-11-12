@@ -5,7 +5,7 @@
     "name" : "Environmental",
     "children" : [ {
       "name" : "IB Health checkup SIT",
-      "uid" : "551b02f9ec088de4",
+      "uid" : "261404bbf978fd51",
       "parentUid" : "e1929876dc27dd2be073d67cdf510543",
       "status" : "broken",
       "time" : {
@@ -21,7 +21,7 @@
     "name" : "Verify Items Under Menu - English",
     "children" : [ {
       "name" : "Verify that items under Our Market > Main Market Section appears correctly",
-      "uid" : "e957c38039233814",
+      "uid" : "ee00db925eba283d",
       "parentUid" : "f4ce2303a53adf0021333baaec8c75f1",
       "status" : "passed",
       "time" : {
@@ -33,5 +33,33 @@
       "parameters" : [ ]
     } ],
     "uid" : "f4ce2303a53adf0021333baaec8c75f1"
+  }, {
+    "name" : "Validate Devotionals",
+    "children" : [ {
+      "name" : "validating the date picking from the calendar",
+      "uid" : "797cdf881f082b2d",
+      "parentUid" : "74960f57932239cda91a0d23d96b761e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1762936111244,
+        "stop" : 1762936151063,
+        "duration" : 39819
+      },
+      "flaky" : false,
+      "parameters" : [ "", "23-October-2024", "15-June-2023" ]
+    }, {
+      "name" : "validating the date picking from the calendar",
+      "uid" : "2f9f865a06b59e62",
+      "parentUid" : "74960f57932239cda91a0d23d96b761e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1762936160257,
+        "stop" : 1762936191766,
+        "duration" : 31509
+      },
+      "flaky" : false,
+      "parameters" : [ "", "17-March-2024", "26-September-2022" ]
+    } ],
+    "uid" : "74960f57932239cda91a0d23d96b761e"
   } ]
 }

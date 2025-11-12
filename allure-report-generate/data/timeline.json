@@ -4,26 +4,38 @@
   "children" : [ {
     "name" : "THSLT10419",
     "children" : [ {
-      "name" : "22056@THSLT10419.main(1)",
+      "name" : "25792@THSLT10419.main(1)",
       "children" : [ {
-        "name" : "Verify that items under Our Market > Main Market Section appears correctly",
-        "uid" : "e957c38039233814",
-        "parentUid" : "f24deef528b70cafa474d1a8297c9185",
+        "name" : "validating the date picking from the calendar",
+        "uid" : "2f9f865a06b59e62",
+        "parentUid" : "761b7e7b19ed8817ceeae07d736930b9",
         "status" : "passed",
         "time" : {
-          "start" : 1762853020818,
-          "stop" : 1762853053155,
-          "duration" : 32337
+          "start" : 1762936160257,
+          "stop" : 1762936191766,
+          "duration" : 31509
         },
         "flaky" : false,
-        "parameters" : [ ]
+        "parameters" : [ "", "17-March-2024", "26-September-2022" ]
+      }, {
+        "name" : "validating the date picking from the calendar",
+        "uid" : "797cdf881f082b2d",
+        "parentUid" : "761b7e7b19ed8817ceeae07d736930b9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1762936111244,
+          "stop" : 1762936151063,
+          "duration" : 39819
+        },
+        "flaky" : false,
+        "parameters" : [ "", "23-October-2024", "15-June-2023" ]
       } ],
-      "uid" : "f24deef528b70cafa474d1a8297c9185"
+      "uid" : "761b7e7b19ed8817ceeae07d736930b9"
     }, {
       "name" : "32300@THSLT10419.main(1)",
       "children" : [ {
         "name" : "IB Health checkup SIT",
-        "uid" : "551b02f9ec088de4",
+        "uid" : "261404bbf978fd51",
         "parentUid" : "a321271bfc73a66fd1055f0ccb387d49",
         "status" : "broken",
         "time" : {
@@ -35,6 +47,22 @@
         "parameters" : [ ]
       } ],
       "uid" : "a321271bfc73a66fd1055f0ccb387d49"
+    }, {
+      "name" : "22056@THSLT10419.main(1)",
+      "children" : [ {
+        "name" : "Verify that items under Our Market > Main Market Section appears correctly",
+        "uid" : "ee00db925eba283d",
+        "parentUid" : "f24deef528b70cafa474d1a8297c9185",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762853020818,
+          "stop" : 1762853053155,
+          "duration" : 32337
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f24deef528b70cafa474d1a8297c9185"
     } ],
     "uid" : "e0aab46fdf7db4b5e99197c7a7a25765"
   } ]

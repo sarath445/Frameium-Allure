@@ -7,7 +7,7 @@
       "name" : "Element must be set",
       "children" : [ {
         "name" : "IB Health checkup SIT",
-        "uid" : "551b02f9ec088de4",
+        "uid" : "261404bbf978fd51",
         "parentUid" : "ebbc1f2d49b0bd3d074841fff86ce47a",
         "status" : "broken",
         "time" : {
@@ -19,6 +19,22 @@
         "parameters" : [ ]
       } ],
       "uid" : "ebbc1f2d49b0bd3d074841fff86ce47a"
+    }, {
+      "name" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=142.0.7444.135)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.17.0', revision: 'e52b1be057*'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4f19f6639eb7f570c84704a2bd4a06bb, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.FC7D47D04ABE9B1CF5B9082C8C1538A4.d.E34CD881CE980A03C73F1937BDFD4D41.e.47}]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.135, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\\Users\\SARATH~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, goog:processID: 2096, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 142.0.7444.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4f19f6639eb7f570c84704a2bd4a06bb",
+      "children" : [ {
+        "name" : "validating the date picking from the calendar",
+        "uid" : "797cdf881f082b2d",
+        "parentUid" : "fa675e1c210b1739a991e2230b779da3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1762936111244,
+          "stop" : 1762936151063,
+          "duration" : 39819
+        },
+        "flaky" : false,
+        "parameters" : [ "", "23-October-2024", "15-June-2023" ]
+      } ],
+      "uid" : "fa675e1c210b1739a991e2230b779da3"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

@@ -1,0 +1,478 @@
+{
+  "uid" : "797cdf881f082b2d",
+  "name" : "validating the date picking from the calendar",
+  "fullName" : "src/test/resources/Features/ODBM/Devotionals.feature:18",
+  "historyId" : "abd5e897689a58a99fb1b73722941801",
+  "time" : {
+    "start" : 1762936111244,
+    "stop" : 1762936151063,
+    "duration" : 39819
+  },
+  "status" : "broken",
+  "statusMessage" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=142.0.7444.135)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.17.0', revision: 'e52b1be057*'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4f19f6639eb7f570c84704a2bd4a06bb, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.FC7D47D04ABE9B1CF5B9082C8C1538A4.d.E34CD881CE980A03C73F1937BDFD4D41.e.47}]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.135, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\\Users\\SARATH~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, goog:processID: 2096, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 142.0.7444.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4f19f6639eb7f570c84704a2bd4a06bb",
+  "statusTrace" : "org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame\n  (Session info: chrome=142.0.7444.135)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.17.0', revision: 'e52b1be057*'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4f19f6639eb7f570c84704a2bd4a06bb, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.FC7D47D04ABE9B1CF5B9082C8C1538A4.d.E34CD881CE980A03C73F1937BDFD4D41.e.47}]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.135, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\\Users\\SARATH~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, goog:processID: 2096, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 142.0.7444.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4f19f6639eb7f570c84704a2bd4a06bb\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)\r\n\tat com.frameium.genericfunctions.GenericFunctions.executeScript(GenericFunctions.java:1570)\r\n\tat com.frameium.genericfunctions.GenericFunctions.clickElement(GenericFunctions.java:1667)\r\n\tat com.frameium.pageobject.ODBM.ODBMDevotional.fromDatePicking(ODBMDevotional.java:94)\r\n\tat com.frameium.stepdef.ODBM.DevotionalsBreadTest.userAbleToPickDateFromCalendarWithGiven(DevotionalsBreadTest.java:43)\r\n\tat ✽.user able to pick date from calendar with given \"15-June-2023\"(file:///C:/Users/SarathSobhitharaj/Frameium_allure/src/test/resources/Features/ODBM/Devotionals.feature:13)\r\n",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "com.frameium.stepdef.Hooks.beforeScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936111326,
+      "stop" : 1762936116921,
+      "duration" : 5595
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.IBPayments.TestdataRead()",
+    "time" : {
+      "start" : 1762936116984,
+      "stop" : 1762936118579,
+      "duration" : 1595
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.PaymentTest.TestdataRead()",
+    "time" : {
+      "start" : 1762936118581,
+      "stop" : 1762936118781,
+      "duration" : 200
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=142.0.7444.135)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.17.0', revision: 'e52b1be057*'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4f19f6639eb7f570c84704a2bd4a06bb, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.FC7D47D04ABE9B1CF5B9082C8C1538A4.d.E34CD881CE980A03C73F1937BDFD4D41.e.47}]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.135, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\\Users\\SARATH~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, goog:processID: 2096, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 142.0.7444.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4f19f6639eb7f570c84704a2bd4a06bb",
+    "statusTrace" : "org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame\n  (Session info: chrome=142.0.7444.135)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.17.0', revision: 'e52b1be057*'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4f19f6639eb7f570c84704a2bd4a06bb, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.FC7D47D04ABE9B1CF5B9082C8C1538A4.d.E34CD881CE980A03C73F1937BDFD4D41.e.47}]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.135, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\\Users\\SARATH~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, goog:processID: 2096, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 142.0.7444.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4f19f6639eb7f570c84704a2bd4a06bb\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)\r\n\tat com.frameium.genericfunctions.GenericFunctions.executeScript(GenericFunctions.java:1570)\r\n\tat com.frameium.genericfunctions.GenericFunctions.clickElement(GenericFunctions.java:1667)\r\n\tat com.frameium.pageobject.ODBM.ODBMDevotional.fromDatePicking(ODBMDevotional.java:94)\r\n\tat com.frameium.stepdef.ODBM.DevotionalsBreadTest.userAbleToPickDateFromCalendarWithGiven(DevotionalsBreadTest.java:43)\r\n\tat ✽.user able to pick date from calendar with given \"15-June-2023\"(file:///C:/Users/SarathSobhitharaj/Frameium_allure/src/test/resources/Features/ODBM/Devotionals.feature:13)\r\n",
+    "steps" : [ {
+      "name" : "Given  User opens Url \"https://www.odbm.org/\"",
+      "time" : {
+        "start" : 1762936118974,
+        "stop" : 1762936133012,
+        "duration" : 14038
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  User mouseover to Daily devotionals and click the \"All Daily Devotionals\" option",
+      "time" : {
+        "start" : 1762936133118,
+        "stop" : 1762936134948,
+        "duration" : 1830
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user able to pick date from calendar with given \"15-June-2023\"",
+      "time" : {
+        "start" : 1762936135055,
+        "stop" : 1762936146443,
+        "duration" : 11388
+      },
+      "status" : "broken",
+      "statusMessage" : "stale element reference: stale element not found in the current frame\n  (Session info: chrome=142.0.7444.135)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.17.0', revision: 'e52b1be057*'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4f19f6639eb7f570c84704a2bd4a06bb, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.FC7D47D04ABE9B1CF5B9082C8C1538A4.d.E34CD881CE980A03C73F1937BDFD4D41.e.47}]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.135, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\\Users\\SARATH~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, goog:processID: 2096, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 142.0.7444.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4f19f6639eb7f570c84704a2bd4a06bb",
+      "statusTrace" : "org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame\n  (Session info: chrome=142.0.7444.135)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.17.0', revision: 'e52b1be057*'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4f19f6639eb7f570c84704a2bd4a06bb, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.FC7D47D04ABE9B1CF5B9082C8C1538A4.d.E34CD881CE980A03C73F1937BDFD4D41.e.47}]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.135, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\\Users\\SARATH~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, goog:processID: 2096, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 142.0.7444.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4f19f6639eb7f570c84704a2bd4a06bb\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:464)\r\n\tat com.frameium.genericfunctions.GenericFunctions.executeScript(GenericFunctions.java:1570)\r\n\tat com.frameium.genericfunctions.GenericFunctions.clickElement(GenericFunctions.java:1667)\r\n\tat com.frameium.pageobject.ODBM.ODBMDevotional.fromDatePicking(ODBMDevotional.java:94)\r\n\tat com.frameium.stepdef.ODBM.DevotionalsBreadTest.userAbleToPickDateFromCalendarWithGiven(DevotionalsBreadTest.java:43)\r\n\tat ✽.user able to pick date from calendar with given \"15-June-2023\"(file:///C:/Users/SarathSobhitharaj/Frameium_allure/src/test/resources/Features/ODBM/Devotionals.feature:13)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user able to pick toDate from calendar with given \"23-October-2024\"",
+      "time" : {
+        "start" : 1762936148316,
+        "stop" : 1762936148323,
+        "duration" : 7
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936118822,
+      "stop" : 1762936118951,
+      "duration" : 129
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.IBPayments.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936133022,
+      "stop" : 1762936133067,
+      "duration" : 45
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936133069,
+      "stop" : 1762936133074,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936133075,
+      "stop" : 1762936133109,
+      "duration" : 34
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936133115,
+      "stop" : 1762936133117,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.IBPayments.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936134983,
+      "stop" : 1762936135010,
+      "duration" : 27
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936135017,
+      "stop" : 1762936135030,
+      "duration" : 13
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936135035,
+      "stop" : 1762936135038,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936135044,
+      "stop" : 1762936135050,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.IBPayments.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936146484,
+      "stop" : 1762936146957,
+      "duration" : 473
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936146980,
+      "stop" : 1762936146999,
+      "duration" : 19
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936147004,
+      "stop" : 1762936148286,
+      "duration" : 1282
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bbb2e1bf7d100aaf",
+      "name" : "screenshot",
+      "source" : "bbb2e1bf7d100aaf.png",
+      "type" : "image/png",
+      "size" : 425757
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936148296,
+      "stop" : 1762936148302,
+      "duration" : 6
+    },
+    "status" : "skipped",
+    "statusMessage" : "BEFORE_STEP is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.IBPayments.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936148325,
+      "stop" : 1762936148351,
+      "duration" : 26
+    },
+    "status" : "skipped",
+    "statusMessage" : "AFTER_STEP is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936148361,
+      "stop" : 1762936148398,
+      "duration" : 37
+    },
+    "status" : "skipped",
+    "statusMessage" : "AFTER_STEP is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936148399,
+      "stop" : 1762936148404,
+      "duration" : 5
+    },
+    "status" : "skipped",
+    "statusMessage" : "AFTER_STEP is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.closeDriver()",
+    "time" : {
+      "start" : 1762936148412,
+      "stop" : 1762936151037,
+      "duration" : 2625
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936151043,
+      "stop" : 1762936151052,
+      "duration" : 9
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Dv2"
+  }, {
+    "name" : "host",
+    "value" : "THSLT10419"
+  }, {
+    "name" : "thread",
+    "value" : "25792@THSLT10419.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Validate Devotionals"
+  }, {
+    "name" : "story",
+    "value" : "validating the date picking from the calendar"
+  }, {
+    "name" : "suite",
+    "value" : "Validate Devotionals"
+  }, {
+    "name" : "testClass",
+    "value" : "validating the date picking from the calendar"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber6jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/SarathSobhitharaj/Frameium_allure/src/test/resources/Features/ODBM/Devotionals.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.Features.ODBM.Devotionals_feature.Validate Devotionals"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "",
+    "value" : ""
+  }, {
+    "name" : "ToDate",
+    "value" : "23-October-2024"
+  }, {
+    "name" : "date",
+    "value" : "15-June-2023"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "Dv2" ]
+  },
+  "source" : "797cdf881f082b2d.json",
+  "parameterValues" : [ "", "23-October-2024", "15-June-2023" ]
+}

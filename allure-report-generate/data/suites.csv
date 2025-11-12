@@ -1,3 +1,5 @@
 "Status","Name","Duration in ms","Description"
-"passed","src/test/resources/Features/SaudiExch/SaudiExchange.feature:5","32337",""
+"passed","src/test/resources/Features/ODBM/Devotionals.feature:19","31509",""
 "broken","src/test/resources/Features/UFS/EnvironmentHealthCheckup.feature:27","75256",""
+"passed","src/test/resources/Features/SaudiExch/SaudiExchange.feature:5","32337",""
+"broken","src/test/resources/Features/ODBM/Devotionals.feature:18","39819",""

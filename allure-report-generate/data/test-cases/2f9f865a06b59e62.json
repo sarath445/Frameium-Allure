@@ -1,0 +1,458 @@
+{
+  "uid" : "2f9f865a06b59e62",
+  "name" : "validating the date picking from the calendar",
+  "fullName" : "src/test/resources/Features/ODBM/Devotionals.feature:19",
+  "historyId" : "ce3711af46cb869320da7248241156cb",
+  "time" : {
+    "start" : 1762936160257,
+    "stop" : 1762936191766,
+    "duration" : 31509
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "com.frameium.stepdef.Hooks.beforeScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936160267,
+      "stop" : 1762936160282,
+      "duration" : 15
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.IBPayments.TestdataRead()",
+    "time" : {
+      "start" : 1762936160285,
+      "stop" : 1762936160604,
+      "duration" : 319
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.PaymentTest.TestdataRead()",
+    "time" : {
+      "start" : 1762936160618,
+      "stop" : 1762936161062,
+      "duration" : 444
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User opens Url \"https://www.odbm.org/\"",
+      "time" : {
+        "start" : 1762936161083,
+        "stop" : 1762936167639,
+        "duration" : 6556
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  User mouseover to Daily devotionals and click the \"All Daily Devotionals\" option",
+      "time" : {
+        "start" : 1762936167945,
+        "stop" : 1762936169598,
+        "duration" : 1653
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user able to pick date from calendar with given \"26-September-2022\"",
+      "time" : {
+        "start" : 1762936169613,
+        "stop" : 1762936189757,
+        "duration" : 20144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user able to pick toDate from calendar with given \"17-March-2024\"",
+      "time" : {
+        "start" : 1762936189779,
+        "stop" : 1762936191439,
+        "duration" : 1660
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936161068,
+      "stop" : 1762936161080,
+      "duration" : 12
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.IBPayments.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936167656,
+      "stop" : 1762936167699,
+      "duration" : 43
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936167728,
+      "stop" : 1762936167739,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936167768,
+      "stop" : 1762936167793,
+      "duration" : 25
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936167809,
+      "stop" : 1762936167830,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.IBPayments.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936169599,
+      "stop" : 1762936169602,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936169603,
+      "stop" : 1762936169606,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936169606,
+      "stop" : 1762936169608,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936169610,
+      "stop" : 1762936169613,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.IBPayments.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936189764,
+      "stop" : 1762936189768,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936189770,
+      "stop" : 1762936189771,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936189773,
+      "stop" : 1762936189774,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.beforeEachStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936189775,
+      "stop" : 1762936189776,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Ufs.IBPayments.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936191440,
+      "stop" : 1762936191443,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936191444,
+      "stop" : 1762936191447,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterEveryStep(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936191448,
+      "stop" : 1762936191449,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.closeDriver()",
+    "time" : {
+      "start" : 1762936191450,
+      "stop" : 1762936191759,
+      "duration" : 309
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "com.frameium.stepdef.Hooks.afterScenario(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1762936191761,
+      "stop" : 1762936191765,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Dv2"
+  }, {
+    "name" : "host",
+    "value" : "THSLT10419"
+  }, {
+    "name" : "thread",
+    "value" : "25792@THSLT10419.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Validate Devotionals"
+  }, {
+    "name" : "story",
+    "value" : "validating the date picking from the calendar"
+  }, {
+    "name" : "suite",
+    "value" : "Validate Devotionals"
+  }, {
+    "name" : "testClass",
+    "value" : "validating the date picking from the calendar"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber6jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/SarathSobhitharaj/Frameium_allure/src/test/resources/Features/ODBM/Devotionals.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.Features.ODBM.Devotionals_feature.Validate Devotionals"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "",
+    "value" : ""
+  }, {
+    "name" : "ToDate",
+    "value" : "17-March-2024"
+  }, {
+    "name" : "date",
+    "value" : "26-September-2022"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Dv2" ]
+  },
+  "source" : "2f9f865a06b59e62.json",
+  "parameterValues" : [ "", "17-March-2024", "26-September-2022" ]
+}

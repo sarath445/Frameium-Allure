@@ -1,6 +1,17 @@
 {
-  "total" : 2,
+  "total" : 3,
   "items" : [ {
+    "uid" : "74960f57932239cda91a0d23d96b761e",
+    "name" : "Validate Devotionals",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
     "uid" : "e1929876dc27dd2be073d67cdf510543",
     "name" : "Environmental",
     "statistic" : {

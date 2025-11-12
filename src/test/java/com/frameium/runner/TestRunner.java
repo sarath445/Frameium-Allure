@@ -21,9 +21,9 @@ import java.util.zip.ZipOutputStream;
 import static com.frameium.genericfunctions.GenericFunctions.getConfigProperty;
 
 
-@CucumberOptions(features = {"src/test/resources/Features/Swag/LoginPage.feature", "src/test/resources/Features/SaudiExch/SaudiExchange.feature"},
+@CucumberOptions(features = {"src/test/resources/Features/Swag/LoginPage.feature", "src/test/resources/Features/SaudiExch/SaudiExchange.feature", "src/test/resources/Features/ODBM/Devotionals.feature"},
         glue = {"com.frameium.stepdef"},
-              tags = "@P1",
+              tags = "@Dv2",
         dryRun = false,
         monochrome = true,
         plugin = { "pretty", "io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm","com.frameium.reportportal.attributes.CustomAttributeReporter","json:target/cucumber-reports/Cucumber.json","html:target/cucumber-reports/Cucumber.html","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }

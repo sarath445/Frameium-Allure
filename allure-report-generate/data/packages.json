@@ -7,7 +7,7 @@
       "name" : "UFS.EnvironmentHealthCheckup_feature.Environmental",
       "children" : [ {
         "name" : "IB Health checkup SIT",
-        "uid" : "551b02f9ec088de4",
+        "uid" : "261404bbf978fd51",
         "parentUid" : "0ed73d66b9b8bbef001b58d622b7bdc3",
         "status" : "broken",
         "time" : {
@@ -23,7 +23,7 @@
       "name" : "SaudiExch.SaudiExchange_feature.Verify Items Under Menu - English",
       "children" : [ {
         "name" : "Verify that items under Our Market > Main Market Section appears correctly",
-        "uid" : "e957c38039233814",
+        "uid" : "ee00db925eba283d",
         "parentUid" : "bd6c78d0b085e2f5a8f7b388a3406e47",
         "status" : "passed",
         "time" : {
@@ -35,6 +35,34 @@
         "parameters" : [ ]
       } ],
       "uid" : "SaudiExch.SaudiExchange_feature.Verify Items Under Menu - English"
+    }, {
+      "name" : "ODBM.Devotionals_feature.Validate Devotionals",
+      "children" : [ {
+        "name" : "validating the date picking from the calendar",
+        "uid" : "797cdf881f082b2d",
+        "parentUid" : "b3344047d123412aa5842a5077acc3e3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1762936111244,
+          "stop" : 1762936151063,
+          "duration" : 39819
+        },
+        "flaky" : false,
+        "parameters" : [ "", "23-October-2024", "15-June-2023" ]
+      }, {
+        "name" : "validating the date picking from the calendar",
+        "uid" : "2f9f865a06b59e62",
+        "parentUid" : "b3344047d123412aa5842a5077acc3e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1762936160257,
+          "stop" : 1762936191766,
+          "duration" : 31509
+        },
+        "flaky" : false,
+        "parameters" : [ "", "17-March-2024", "26-September-2022" ]
+      } ],
+      "uid" : "ODBM.Devotionals_feature.Validate Devotionals"
     } ],
     "uid" : "src.test.resources.Features"
   } ]
