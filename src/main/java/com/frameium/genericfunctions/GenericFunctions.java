@@ -65,6 +65,7 @@ import java.util.NoSuchElementException;
 import java.util.*;
 
 public class GenericFunctions  {
+	Actions act;
 
 
 
@@ -95,6 +96,8 @@ public class GenericFunctions  {
 	public GenericFunctions(WebDriver driver){
 
         this.driver = driver;
+		act = new Actions(driver);
+
 	}
 
 	public GenericFunctions(){
@@ -179,6 +182,84 @@ public class GenericFunctions  {
 			 }
 
 		 }
+	public boolean passingInputEnter(WebElement element, String text)throws Exception{
+		try{
+			act.click(element).sendKeys(text).sendKeys(Keys.ENTER).perform();
+			return true;
+		}
+		catch (Exception e){
+			System.out.println("Exception in passing" + e.getMessage());
+			return false;
+		}
+	}
+
+	public boolean toggleBtn(WebElement element, boolean enable)throws Exception{
+		try{
+			boolean isCurrentState = element.isSelected();    //check toggle state of the button
+
+			if(isCurrentState!=enable){
+				element.click();
+				System.out.println("Toggle switched successfully");
+			}
+			else {
+				System.out.println("Toggle already in enabled state");
+			}
+			return true;
+		}
+		catch (Exception e){
+			System.out.println("Toggle button has some issues" + e.getMessage());
+			return false;
+		}
+	}
+	public boolean submitGodhears(WebElement element) {
+		try {
+			act.click(element).perform();
+			return true;
+		} catch (Exception e) {
+			System.out.println("Exception in submitting" + e.getMessage());
+			return false;
+		}
+
+	}
+	public String applicationUrl(String url){
+		System.out.println("driver--->"+ driver);
+		driver.get(url);
+		driver.manage().window().maximize();
+		return url;
+	}
+	public boolean hoverOverElement(WebElement element) {
+		//Actions act = new Actions(driver);
+		try{
+			act.moveToElement(element).perform();
+			return true;
+		}
+		catch (Exception e){
+			System.out.println("Exception in mousehover" + e.getMessage());
+			return false;
+		}
+	}
+	public void scrollElementScroll(WebElement element) {
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center'});", element);
+	}
+
+	public void clickDynamicElements(By xpath) throws InterruptedException {
+		Thread.sleep(4000);
+		List<WebElement> dynamicBtns = driver.findElements(xpath);
+		System.out.println("No.of dynamic buttons found >> "+ dynamicBtns.size());
+		for (WebElement element : dynamicBtns) {
+			if (element.isDisplayed()) {
+				clickElementUsingJavaScript(element);
+				System.out.println("Clicked on dynamic button.... " );
+				break;
+			} else {
+				System.out.println("Element not interactable!!!" );
+			}
+		}
+	}
+//	public WebElement element(By byElement) {
+//		WebElement ele = driver.findElement(byElement);
+//		return ele;
+//	}
 
 	public static void customizeAllureReport1() throws IOException {
 		// Path to Allure report generated
@@ -1007,6 +1088,17 @@ public String getTitle(){
 		WebElement dateElement = driver.findElement(dateLocator);
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", dateElement);
 		wait.until(ExpectedConditions.elementToBeClickable(dateElement)).click();
+	}
+	public boolean passingInput(WebElement element, String text)throws Exception{
+
+		try{
+			act.sendKeys(element,text).perform();
+			return true;
+		}
+		catch (Exception e){
+			System.out.println("Exception in passing" + e.getMessage());
+			return false;
+		}
 	}
 
 	private int getMonthInNum(String month) {
