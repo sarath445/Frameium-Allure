@@ -14,10 +14,11 @@ import java.util.Set;
 import static com.frameium.pageobject.ODBM.BreadWebElements.ministries;
 
 public class OurMinistryReclaimToday extends GenericFunctions {
-     static WebDriver driver;
+      WebDriver driver;
      GenericFunctions genericFunctions;
      WebDriverWait wait;
 
+     //creating constructor.
     public OurMinistryReclaimToday(WebDriver driver){
         this.driver = driver;
         genericFunctions = new GenericFunctions(driver);
